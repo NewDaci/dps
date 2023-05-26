@@ -1,0 +1,40 @@
+.top-header {
+    background: #db9c27;
+    border-bottom: 1px solid #db9c27
+}
+
+.other-link i,
+.top-header ul {
+    float: right
+}
+
+.top-header ul li {
+    float: left;
+    line-height: 14px
+}
+
+.top-header ul li a {
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    padding: 10px
+}
+
+.top-header ul li a:hover {
+    background: #065e3e;
+    color: #fff
+}
+
+@media screen and (max-width:672px) {
+    .navigation,
+    .top-header,
+    .top-socials {
+        display: none
+    }
+}
+
+.top-header,
+.wrapper {
+    width: 100%;
+    float: left
+}

@@ -8,7 +8,8 @@
     border-bottom: 1px solid #065e3e;
     text-align: center;
     border-top: 1px solid #065e3e;
-    background: #065e3e
+    background: #065e3e;
+    padding-right: 100px;
 }
 
 .navigation,

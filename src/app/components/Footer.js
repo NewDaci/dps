@@ -22,15 +22,20 @@ function Footer() {
             <div className={styles['first-footer']}>
                 <div className={`${styles['footer-logo']} ${styles['foot-box']}`}>
                     <Image
+                    style={{marginTop:"40px"}}
                         src="/dpslogo.png"
-                        width={300}
-                        height={150}
+                        width={500}
+                        height={120}
                         alt="DPS Jaipur"
                     />
                 </div>
 
                 {/* QUICK LINKS DIV */}
-                <div className={`${styles['quick-links']} ${styles['foot-box']}`}>
+                <div className={`${styles['quick-links']} ${styles['foot-box']}`}
+                style={{
+                    height: '240.8px',
+                    width: '423px'                
+                }}>
                     <h3>Quick Links</h3>
                     <ul>
                         {/* <li><a href="Facilities">Facilities</a></li> */}
@@ -47,7 +52,11 @@ function Footer() {
                 </div>
 
                 {/* CONTACT US DIV */}
-                <div className={styles['foot-box']}>
+                <div className={styles['foot-box']}
+                style={{
+                    width: '400px',
+                    height: '253px'
+                }}>
                     <h3>Contact us</h3>
                     <div className={styles['conatct-box']}>
                         <div className={styles.contact}>

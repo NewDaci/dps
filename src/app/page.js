@@ -5,6 +5,7 @@ import MainWrapper from './components/MainWrapper';
 import Slidder from './components/Slidder';
 import Main from './components/Main';
 import NavBar from './components/NavBar';
+import Slidder2 from './components/Slidder2';
 
 export default function Home() {
   return (
@@ -12,9 +13,9 @@ export default function Home() {
     {/* <Main /> */}
     {/* <Header /> */}
     {/* <MainWrapper /> */}
-    <NavBar />
-    <Slidder />
-    <div className='conatiner mx-auto min-h-screen font-bold text-6xl center'>Herosection</div>
+    {/* <NavBar /> */}
+    {/* <Slidder /> */}
+    {/* <Slidder2 /> */}
     <HeroSection />
     {/* <Footer /> */}
     </>

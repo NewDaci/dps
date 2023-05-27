@@ -8,13 +8,13 @@ function NavBar() {
                     <div className="span12">
                         <nav className={styles['site-desktop-menu-new']}>
                             <ul className={styles.clearfix}>
-                                <li className="" data-wow-delay="0.2s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="index-2.html"> Home</a>
                                 </li>
                                 {/* ABOUT US */}
-                                <li className="" data-wow-delay="0.3s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">About Us</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li>
                                             <a href="About-Us.html">Overview</a>
                                         </li>
@@ -46,9 +46,9 @@ function NavBar() {
                                 </li>
 
                                 {/* INFRASTRUCTURE */}
-                                <li className="" data-wow-delay="0.8s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Infrastructure</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li className="">
                                             <a href="Infrastructure-Facilities.html">Facilities</a>
                                         </li>
@@ -79,9 +79,9 @@ function NavBar() {
                                 </li>
 
                                 {/* HOSTEL */}
-                                <li className="" data-wow-delay="0.16s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Hostel</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li className="">
                                             <a href="Hostel-Overview.html">Hostel Overview</a>
                                         </li>
@@ -123,42 +123,10 @@ function NavBar() {
                                     </ul>
                                 </li>
 
-                                {/* <li className="hovered" data-wow-delay="0.21s">
-                                    <a href="#">Admission</a>
-                                    <ul
-                                        style={{
-                                            display: "block",
-                                            overflow: "hidden",
-                                            height: 1,
-                                            paddingTop: 0,
-                                            marginTop: 0,
-                                            paddingBottom: 0,
-                                            marginBottom: 0
-                                        }}>
-                                        <li className="">
-                                            <a href="Admission-Information.html">Admission Information</a>
-                                        </li>
-                                        <li className="">
-                                            <a href="Registration-Form.html">Registration Form</a>
-                                        </li>
-                                        <li>
-                                            <a href="Fee-Structure.html">Fee Structure</a>
-                                        </li>
-                                        <li>
-                                            <a href="upload/attach/430291668413026_FEE_RULES.pdf">
-                                                Fee Rules
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="Withdrawals.html">Withdrawals </a>
-                                        </li>
-                                    </ul>
-                                </li> */}
-
                                 {/* ACADEMICS */}
-                                <li className="" data-wow-delay="0.26s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Academics</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li className="">
                                             <a href="Examination.html">Examination</a>
                                         </li>
@@ -193,9 +161,9 @@ function NavBar() {
                                 </li>
 
                                 {/* GALLERY */}
-                                <li className="" data-wow-delay="0.37s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Gallery</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li>
                                             <a href="image-gallery.html">Image Gallery</a>
                                         </li>
@@ -206,9 +174,9 @@ function NavBar() {
                                 </li>
 
                                 {/* INITIATIVES */}
-                                <li className="" data-wow-delay="0.38s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Initiatives</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li className="">
                                             <a href="Learner-Centric-Programmes.html">
                                                 Learner Centric Programmes
@@ -232,9 +200,9 @@ function NavBar() {
                                 </li>
 
                                 {/* RESULT */}
-                                <li className="" data-wow-delay="0.45s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Result</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li>
                                             <a href="upload/attach/2601684353431_Class_XII_Result.pdf">
                                                 Class XII
@@ -249,14 +217,14 @@ function NavBar() {
                                 </li>
 
                                 {/* HUBS OF LEARNING */}
-                                <li className="" data-wow-delay="0.70s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="DPS-HOL.html"> Hubs of Learning</a>
                                 </li>
 
                                 {/* TENNIS ACADEMY */}
-                                <li className="" data-wow-delay="0.82s">
+                                <li className={`${styles.dropdown}`}>
                                     <a href="#">Devyani Jaipuria Tennis Academy</a>
-                                    <ul style={{ display: "none" }}>
+                                    <ul className={styles['dropdown-menu']}>
                                         <li>
                                             <a href="-About-Academy.html">About Academy</a>
                                         </li>

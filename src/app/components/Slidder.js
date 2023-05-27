@@ -1,56 +1,73 @@
-import styles from "../styles/main.module.css";
+import styles from "../styles/slidder.module.css";
+import Image from 'next/image';
+
 
 function Slidder() {
     return (
         <>
-            <div id="layerslider-container-fw" classname="home-slider slider-banners">
+            <div className={`${styles['home-slider']} ${styles['slider-banners']}`}>
                 <div
-                    id="layerslider"
                     style={{
-                        width: 894,
+                        width: "100%",
                         margin: "0px auto",
-                        height: "558.75px",
+                        height: 600,
                         visibility: "visible"
                     }}
-                    classname="ls-container ls-borderlesslight"
+                    className={styles['ls-container']}
                 >
-                    <div classname="ls-webkit-hack" />
+                    <div className={styles['ls-webkit-hack']} />
                     <div
-                        classname="ls-inner"
-                        style={{ backgroundColor: "transparent", width: 894, height: 559 }}
+                        className={styles["ls-inner"]}
+                        style={{ backgroundColor: "transparent", width: 1519, height: 600 }}
                     >
                         <div
-                            classname="ls-layer ls-active"
+                            className={styles["ls-layer"]}
                             style={{
-                                width: 894,
-                                height: 559,
+                                width: 0,
+                                height: 600,
                                 visibility: "visible",
                                 display: "none",
-                                inset: "0px 0px auto auto"
+                                inset: "0px auto auto 0px"
                             }}
                         >
-                            <img
+
+                            <Image
+                            className={styles["ls-bg"]}
                                 style={{
-                                    marginTop: "-279.5px",
+                                    marginTop: "-304px",
                                     padding: 0,
                                     borderWidth: 0,
-                                    width: 1397,
-                                    height: 559,
-                                    marginLeft: "-698.5px"
+                                    width: 1519,
+                                    height: 608,
+                                    marginLeft: "-759.5px"
+                                }}
+                                src="/dpslogo.png"
+                                width={300}
+                                height={150}
+                                alt="DPS Jaipur"
+                            />
+                            {/* <img
+                                style={{
+                                    marginTop: "-304px",
+                                    padding: 0,
+                                    borderWidth: 0,
+                                    width: 1519,
+                                    height: 608,
+                                    marginLeft: "-759.5px"
                                 }}
                                 src="images/slider/875021656948443.jpg"
-                                classname="ls-bg"
+                                className="ls-bg"
                                 alt="DPS Jaipur"
-                            />
+                            /> */}
                             <p
-                                classname="ls-s-1 block-1"
+                                className="ls-s-1 block-1"
                                 style={{
-                                    left: "-93.125px",
-                                    top: "442.344px",
+                                    left: "179.5px",
+                                    top: 475,
                                     background: "rgba(4, 139, 72, 0.5)",
                                     color: "rgb(255, 255, 255)",
-                                    padding: "0px 18.625px 9.3125px",
-                                    font: "600 26.075px poppins",
+                                    padding: "0px 20px 10px",
+                                    font: "600 28px poppins",
                                     boxShadow: "rgb(3, 114, 59) 0px 1px 1px",
                                     textTransform: "capitalize",
                                     width: "auto",
@@ -59,37 +76,20 @@ function Slidder() {
                                     opacity: 1,
                                     transform: "rotate(0deg) scale(1, 1)",
                                     marginLeft: 0,
-                                    marginTop: 0,
+                                    marginTop: "-518px",
                                     display: "block",
                                     visibility: "visible"
                                 }}
                             >
                                 My school, my happy place!
                             </p>
-                            <p
-                                classname="ls-s-2 block-2"
-                                style={{
-                                    slidedirection: "bottom",
-                                    slideoutdirection: "top",
-                                    left: 0,
-                                    top: 320,
-                                    durationin: 1000,
-                                    easingin: "easeOutExpo",
-                                    delayin: 800,
-                                    delayou: 1200,
-                                    background: "rgb(9 39 75 / .8)",
-                                    padding: "0px 20px",
-                                    color: "#fff"
-                                }}
-                            >
-                                My school, my happy place!
-                            </p>
+                            {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">My school, my happy place!</p>*/}
                         </div>
                         <div
-                            classname="ls-layer"
+                            className="ls-layer"
                             style={{
                                 width: 0,
-                                height: 559,
+                                height: 600,
                                 visibility: "visible",
                                 display: "none",
                                 inset: "0px auto auto 0px"
@@ -97,26 +97,26 @@ function Slidder() {
                         >
                             <img
                                 style={{
-                                    marginTop: "-279.5px",
+                                    marginTop: "-304px",
                                     padding: 0,
                                     borderWidth: 0,
-                                    width: 1397,
-                                    height: 559,
-                                    marginLeft: "-698.5px"
+                                    width: 1519,
+                                    height: 608,
+                                    marginLeft: "-759.5px"
                                 }}
                                 src="images/slider/115081656949217.jpg"
-                                classname="ls-bg"
+                                className="ls-bg"
                                 alt="DPS Jaipur"
                             />
                             <p
-                                classname="ls-s-1 block-1"
+                                className="ls-s-1 block-1"
                                 style={{
-                                    left: "-93.125px",
-                                    top: "442.344px",
+                                    left: "179.5px",
+                                    top: 475,
                                     background: "rgba(4, 139, 72, 0.5)",
                                     color: "rgb(255, 255, 255)",
-                                    padding: "0px 18.625px 9.3125px",
-                                    font: "600 26.075px poppins",
+                                    padding: "0px 20px 10px",
+                                    font: "600 28px poppins",
                                     boxShadow: "rgb(3, 114, 59) 0px 1px 1px",
                                     textTransform: "capitalize",
                                     width: "auto",
@@ -125,37 +125,20 @@ function Slidder() {
                                     opacity: 1,
                                     transform: "rotate(0deg) scale(1, 1)",
                                     marginLeft: 0,
-                                    marginTop: 0,
+                                    marginTop: "-518px",
                                     display: "block",
                                     visibility: "visible"
                                 }}
                             >
                                 Heralding the era of new age learning.
                             </p>
-                            <p
-                                classname="ls-s-2 block-2"
-                                style={{
-                                    slidedirection: "bottom",
-                                    slideoutdirection: "top",
-                                    left: 0,
-                                    top: 320,
-                                    durationin: 1000,
-                                    easingin: "easeOutExpo",
-                                    delayin: 800,
-                                    delayou: 1200,
-                                    background: "rgb(9 39 75 / .8)",
-                                    padding: "0px 20px",
-                                    color: "#fff"
-                                }}
-                            >
-                                Heralding the era of new age learning.
-                            </p>
+                            {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Heralding the era of new age learning.</p>*/}
                         </div>
                         <div
-                            classname="ls-layer"
+                            className="ls-layer"
                             style={{
                                 width: 0,
-                                height: 559,
+                                height: 600,
                                 visibility: "visible",
                                 display: "none",
                                 inset: "0px auto auto 0px"
@@ -163,26 +146,26 @@ function Slidder() {
                         >
                             <img
                                 style={{
-                                    marginTop: "-279.5px",
+                                    marginTop: "-304px",
                                     padding: 0,
                                     borderWidth: 0,
-                                    width: 1397,
-                                    height: 559,
-                                    marginLeft: "-698.5px"
+                                    width: 1519,
+                                    height: 608,
+                                    marginLeft: "-759.5px"
                                 }}
                                 src="images/slider/513481656949876.jpg"
-                                classname="ls-bg"
+                                className="ls-bg"
                                 alt="DPS Jaipur"
                             />
                             <p
-                                classname="ls-s-1 block-1"
+                                className="ls-s-1 block-1"
                                 style={{
-                                    left: "-93.125px",
-                                    top: "442.344px",
+                                    left: "179.5px",
+                                    top: 475,
                                     background: "rgba(4, 139, 72, 0.5)",
                                     color: "rgb(255, 255, 255)",
-                                    padding: "0px 18.625px 9.3125px",
-                                    font: "600 26.075px poppins",
+                                    padding: "0px 20px 10px",
+                                    font: "600 28px poppins",
                                     boxShadow: "rgb(3, 114, 59) 0px 1px 1px",
                                     textTransform: "capitalize",
                                     width: "auto",
@@ -191,37 +174,20 @@ function Slidder() {
                                     opacity: 1,
                                     transform: "rotate(0deg) scale(1, 1)",
                                     marginLeft: 0,
-                                    marginTop: 0,
+                                    marginTop: "-518px",
                                     display: "block",
                                     visibility: "visible"
                                 }}
                             >
                                 Art - The Global Connect.
                             </p>
-                            <p
-                                classname="ls-s-2 block-2"
-                                style={{
-                                    slidedirection: "bottom",
-                                    slideoutdirection: "top",
-                                    left: 0,
-                                    top: 320,
-                                    durationin: 1000,
-                                    easingin: "easeOutExpo",
-                                    delayin: 800,
-                                    delayou: 1200,
-                                    background: "rgb(9 39 75 / .8)",
-                                    padding: "0px 20px",
-                                    color: "#fff"
-                                }}
-                            >
-                                Art - The Global Connect.
-                            </p>
+                            {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Art - The Global Connect.</p>*/}
                         </div>
                         <div
-                            classname="ls-layer"
+                            className="ls-layer"
                             style={{
                                 width: 0,
-                                height: 559,
+                                height: 600,
                                 visibility: "visible",
                                 display: "none",
                                 inset: "0px auto auto 0px"
@@ -229,26 +195,26 @@ function Slidder() {
                         >
                             <img
                                 style={{
-                                    marginTop: "-279.5px",
+                                    marginTop: "-333.5px",
                                     padding: 0,
                                     borderWidth: 0,
-                                    width: 1272,
-                                    height: 559,
-                                    marginLeft: "-636px"
+                                    width: 1519,
+                                    height: 667,
+                                    marginLeft: "-759.5px"
                                 }}
                                 src="images/slider/992291645608793.jpg"
-                                classname="ls-bg"
+                                className="ls-bg"
                                 alt="DPS Jaipur"
                             />
                             <p
-                                classname="ls-s-1 block-1"
+                                className="ls-s-1 block-1"
                                 style={{
-                                    left: "-93.125px",
-                                    top: "442.344px",
+                                    left: "179.5px",
+                                    top: 475,
                                     background: "rgba(4, 139, 72, 0.5)",
                                     color: "rgb(255, 255, 255)",
-                                    padding: "0px 18.625px 9.3125px",
-                                    font: "600 26.075px poppins",
+                                    padding: "0px 20px 10px",
+                                    font: "600 28px poppins",
                                     boxShadow: "rgb(3, 114, 59) 0px 1px 1px",
                                     textTransform: "capitalize",
                                     width: "auto",
@@ -264,57 +230,40 @@ function Slidder() {
                             >
                                 Girls in blue- Reaching beyond the boundaries
                             </p>
-                            <p
-                                classname="ls-s-2 block-2"
-                                style={{
-                                    slidedirection: "bottom",
-                                    slideoutdirection: "top",
-                                    left: 0,
-                                    top: 320,
-                                    durationin: 1000,
-                                    easingin: "easeOutExpo",
-                                    delayin: 800,
-                                    delayou: 1200,
-                                    background: "rgb(9 39 75 / .8)",
-                                    padding: "0px 20px",
-                                    color: "#fff"
-                                }}
-                            >
-                                Girls in blue- Reaching beyond the boundaries
-                            </p>
+                            {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Girls in blue- Reaching beyond the boundaries</p>*/}
                         </div>
                         <div
-                            classname="ls-layer"
+                            className="ls-layer ls-active"
                             style={{
-                                width: 0,
-                                height: 559,
-                                inset: "0px auto auto 0px",
+                                width: 1519,
+                                height: 600,
+                                inset: "0px 0px auto auto",
                                 visibility: "visible",
                                 display: "none"
                             }}
                         >
                             <img
                                 style={{
-                                    marginTop: "-279.5px",
+                                    marginTop: "-304px",
                                     padding: 0,
                                     borderWidth: 0,
-                                    width: 1397,
-                                    height: 559,
-                                    marginLeft: "-698.5px"
+                                    width: 1519,
+                                    height: 608,
+                                    marginLeft: "-759.5px"
                                 }}
                                 src="images/slider/285451656950051.jpg"
-                                classname="ls-bg"
+                                className="ls-bg"
                                 alt="DPS Jaipur"
                             />
                             <p
-                                classname="ls-s-1 block-1"
+                                className="ls-s-1 block-1"
                                 style={{
-                                    left: "-93.125px",
-                                    top: "442.344px",
+                                    left: "179.5px",
+                                    top: 475,
                                     background: "rgba(4, 139, 72, 0.5)",
                                     color: "rgb(255, 255, 255)",
-                                    padding: "0px 18.625px 9.3125px",
-                                    font: "600 26.075px poppins",
+                                    padding: "0px 20px 10px",
+                                    font: "600 28px poppins",
                                     boxShadow: "rgb(3, 114, 59) 0px 1px 1px",
                                     textTransform: "capitalize",
                                     width: "auto",
@@ -330,71 +279,53 @@ function Slidder() {
                             >
                                 A World of opportunities.
                             </p>
-                            <p
-                                classname="ls-s-2 block-2"
-                                style={{
-                                    slidedirection: "bottom",
-                                    slideoutdirection: "top",
-                                    left: 0,
-                                    top: 320,
-                                    durationin: 1000,
-                                    easingin: "easeOutExpo",
-                                    delayin: 800,
-                                    delayou: 1200,
-                                    background: "rgb(9 39 75 / .8)",
-                                    padding: "0px 20px",
-                                    color: "#fff"
-                                }}
-                            >
-                                A World of opportunities.
-                            </p>
+                            {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">A World of opportunities.</p>*/}
                         </div>
-                        {/* SLIDDER TIMER */}
-                        <div classname="ls-circle-timer" style={{ display: "block" }}>
-                            <div classname="ls-ct-left">
+                        <div className="ls-circle-timer" style={{ display: "block" }}>
+                            <div className="ls-ct-left">
+                                <div className="ls-ct-rotate" style={{ transform: "rotate(0deg)" }}>
+                                    <div className="ls-ct-hider">
+                                        <div className="ls-ct-half" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="ls-ct-right">
                                 <div
-                                    classname="ls-ct-rotate"
-                                    style={{ transform: "rotate(17.73deg)" }}
+                                    className="ls-ct-rotate"
+                                    style={{ transform: "rotate(123.75deg)" }}
                                 >
-                                    <div classname="ls-ct-hider">
-                                        <div classname="ls-ct-half" />
+                                    <div className="ls-ct-hider">
+                                        <div className="ls-ct-half" />
                                     </div>
                                 </div>
                             </div>
-                            <div classname="ls-ct-right">
-                                <div classname="ls-ct-rotate" style={{ transform: "rotate(180deg)" }}>
-                                    <div classname="ls-ct-hider">
-                                        <div classname="ls-ct-half" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div classname="ls-ct-center" />
+                            <div className="ls-ct-center" />
                         </div>
                     </div>
                     <div
-                        classname="ls-loading-container"
+                        className="ls-loading-container"
                         style={{ zIndex: -1, display: "none" }}
                     >
-                        <div classname="ls-loading-indicator" />
+                        <div className="ls-loading-indicator" />
                     </div>
-                    <a classname="ls-nav-prev" href="#" style={{ visibility: "visible" }} />
-                    <a classname="ls-nav-next" href="#" style={{ visibility: "visible" }} />
-                    <div classname="ls-bottom-nav-wrapper" style={{ visibility: "visible" }}>
-                        <a classname="ls-nav-start ls-nav-start-active" href="#" />
-                        <span classname="ls-bottom-slidebuttons">
-                            <a href="#" classname="ls-nav-active" />
-                            <a href="#" classname="" />
-                            <a href="#" classname="" />
-                            <a href="#" classname="" />
-                            <a href="#" classname="" />
-                            <div classname="ls-thumbnail-hover" style={{ width: 100, height: 60 }}>
+                    <a className="ls-nav-prev" href="#" style={{ visibility: "visible" }} />
+                    <a className="ls-nav-next" href="#" style={{ visibility: "visible" }} />
+                    <div className="ls-bottom-nav-wrapper" style={{ visibility: "visible" }}>
+                        <a className="ls-nav-start ls-nav-start-active" href="#" />
+                        <span className="ls-bottom-slidebuttons">
+                            <a href="#" className="" />
+                            <a href="#" className="" />
+                            <a href="#" className="" />
+                            <a href="#" className="" />
+                            <a href="#" className="ls-nav-active" />
+                            <div className="ls-thumbnail-hover" style={{ width: 100, height: 60 }}>
                                 <div
-                                    classname="ls-thumbnail-hover-inner"
+                                    className="ls-thumbnail-hover-inner"
                                     style={{ visibility: "hidden", display: "block" }}
                                 >
-                                    <div classname="ls-thumbnail-hover-bg" />
+                                    <div className="ls-thumbnail-hover-bg" />
                                     <div
-                                        classname="ls-thumbnail-hover-img"
+                                        className="ls-thumbnail-hover-img"
                                         style={{ width: 100, height: 60 }}
                                     >
                                         <img style={{ height: 60 }} />
@@ -403,13 +334,11 @@ function Slidder() {
                                 </div>
                             </div>
                         </span>
-                        <a classname="ls-nav-stop" href="#" />
+                        <a className="ls-nav-stop" href="#" />
                     </div>
-                    <div classname="ls-shadow" />
+                    <div className="ls-shadow" />
                 </div>
             </div>
-
-
         </>
     )
 }

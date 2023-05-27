@@ -1,0 +1,97 @@
+.purchase {
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(to bottom right, #065e3e, #065e3e);
+    padding: 0;
+    border-top: 0 solid #f3cf01;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .navbar-fixed-bottom .container,
+    .navbar-fixed-top .container,
+    .navbar-static-top .container,
+    .span12 {
+        width: 1170px;
+    }
+}
+
+.thought>span {
+    width: 0;
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #2F5202;
+}
+
+.thoughts {
+    display: inline;
+    margin-right: 60px;
+    line-height: 20px;
+    float: left;
+    font-size: 15px
+}
+
+.clearfix:after,
+.container-fluid:after,
+.container:after,
+.row-fluid:after,
+.row:after {
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.row-fluid:after,
+.row-fluid:before,
+.row:after,
+.row:before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+@media (min-width: 1200px){
+.row, .thumbnails {
+    margin-left: -30px;
+}
+}
+
+.row {
+    margin-left: -20px;
+}
+
+@media (min-width: 1200px) {
+    div#myModal {
+        width:850px
+    }
+
+    .mobile-view,.site-mobile-menu,.tab-view {
+        display: none
+    }
+
+    .magnis-product-item {
+        margin-bottom: 30px
+    }
+
+    .magnis-shop .magnis-pagination {
+        margin-top: 10px
+    }
+
+    .desktop-view {
+        display: block
+    }
+}

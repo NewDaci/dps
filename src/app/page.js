@@ -6,6 +6,7 @@ import Slidder from './components/Slidder';
 import Main from './components/Main';
 import NavBar from './components/NavBar';
 import Slidder2 from './components/Slidder2';
+import NewsEvent from './components/NewsEvent';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     {/* <Slidder /> */}
     {/* <Slidder2 /> */}
     <HeroSection />
+    <NewsEvent />
     {/* <Footer /> */}
     </>
   )

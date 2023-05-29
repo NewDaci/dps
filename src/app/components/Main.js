@@ -1,8 +1,21 @@
+import styles from "../styles/main.module.css";
 
 function Main() {
     return (
         <>
             <>
+                {/*
+ /**
+ *
+ * Client: DPS Jaipur
+ * @link https://www.dpsjaipur.com/
+ * Built By: Edunext Technologies Pvt. Ltd.
+ * Project Manager: Rajendra Singh	
+ * Dated: June 10th 2020
+ * Live on: June 25th 2020
+ *
+ * /
+*/}
                 {/* Mirrored from dpsjaipur.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 10:11:01 GMT */}
                 {/* Added by HTTrack */}
                 <meta httpEquiv="content-type" content="text/html;charset=UTF-8" />
@@ -110,17 +123,17 @@ function Main() {
                 </noscript>
                 {/* End Google Tag Manager (noscript) */}
                 {/* Mobile Menu Start */}
-                <div className="mobile-view mobile-menu">
-                    <div className="mobile-view-school-name">
+                <div className={(styles.mobileView, styles.mobileMenu)}>
+                    <div className={styles.mobileViewSchoolName}>
                         <h2>DPS Jaipur</h2>
                     </div>
-                    <nav className="site-mobile-menu">
-                        <i className="icon-reorder" />
-                        <ul className="sf-menu clearfix">
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.2s">
+                    <nav className={styles.siteMobileMenu}>
+                        <i className={styles.iconReorder} />
+                        <ul className={(styles.sfMenu, styles.clearfix)}>
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.2s">
                                 <a href="index-2.html"> Home</a>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.3s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.3s">
                                 <a href="#">About Us</a>
                                 <ul>
                                     <li>
@@ -152,7 +165,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.8s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.8s">
                                 <a href="#">Infrastructure</a>
                                 <ul>
                                     <li>
@@ -181,7 +194,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.16s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.16s">
                                 <a href="#">Hostel</a>
                                 <ul>
                                     <li>
@@ -202,7 +215,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.21s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.21s">
                                 <a href="#">Admission</a>
                                 <ul>
                                     <li>
@@ -224,7 +237,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.26s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.26s">
                                 <a href="#">Academics</a>
                                 <ul>
                                     <li>
@@ -259,7 +272,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.37s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.37s">
                                 <a href="#">Gallery</a>
                                 <ul>
                                     <li>
@@ -270,7 +283,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.38s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.38s">
                                 <a href="#">Initiatives</a>
                                 <ul>
                                     <li>
@@ -280,7 +293,7 @@ function Main() {
                                     </li>
                                     <li>
                                         <a href="#">Shiksha Kendra</a>
-                                        <ul className="sub-menu">
+                                        <ul className={styles.subMenu}>
                                             <li>
                                                 <a href="About.html">About</a>
                                             </li>
@@ -294,7 +307,7 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.45s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.45s">
                                 <a href="#">Result</a>
                                 <ul>
                                     <li>
@@ -309,10 +322,10 @@ function Main() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.70s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.70s">
                                 <a href="DPS-HOL.html"> Hubs of Learning</a>
                             </li>
-                            <li className="wow fadeInLeft animate" data-wow-delay="0.82s">
+                            <li className={(styles.wow, styles.fadeInLeft, styles.animate)} data-wow-delay="0.82s">
                                 <a href="#">Devyani Jaipuria Tennis Academy</a>
                                 <ul>
                                     <li>
@@ -343,14 +356,14 @@ function Main() {
                         </ul>
                     </nav>
                 </div>
-                <div className="mobile-view">
-                    {/* <div class="admission call-us"><a href="enquiry/index.html"><i class="fa fa-book" style="color:#fff;"></i> <p style="color:#fff;">Admission Enquiry</p></a></div> */}
+                <div className={styles.mobileView}>
+                    {/* <div className={(styles.admission, styles.callUs)}><a href="enquiry/index.html"><i className={(styles.fa, styles.faBook)} style="color:#fff;"></i> <p style="color:#fff;">Admission Enquiry</p></a></div> */}
                 </div>
-                <div className="nav2 mobile-view">
-                    <div className="mb-menu-button2">
+                <div className={(styles.nav2, styles.mobileView)}>
+                    <div className={styles.mbMenuButton2}>
                         <span />
                     </div>
-                    <ul className="drop2">
+                    <ul className={styles.drop2}>
                         <li>
                             <a href="https://epathshala.nic.in/">NCERT e books</a>
                         </li>
@@ -376,11 +389,11 @@ function Main() {
                 </div>
                 {/* Mobile Menu End */}
                 {/* Desktop Head Start */}
-                <div className="top-header">
-                    <div className="container">
-                        <div className="row">
-                            <div className="span3"></div>
-                            <div className="span9">
+                <div className={styles.topHeader}>
+                    <div className={styles.container}>
+                        <div className={styles.row}>
+                            <div className={styles.span3}></div>
+                            <div className={styles.span9}>
                                 <ul>
                                     <li>
                                         <a href="careers.html" target="_blank">
@@ -414,9 +427,9 @@ function Main() {
                         </div>
                     </div>
                 </div>
-                <div className="whatsap">
+                <div className={styles.whatsap}>
                     <a href="https://wa.me/+919116405333" target="_blank">
-                        <img alt="DPS Jaipur" src="images/WhatsApp.html" className="img-fluid" />
+                        <img alt="DPS Jaipur" src="images/WhatsApp.html" className={styles.imgFluid} />
                     </a>
                 </div>
                 <style
@@ -425,13 +438,13 @@ function Main() {
                             "\n\t\t.whatsap img {\n\t\t\tposition: fixed;\n\t\t\tbottom: 85px;\n\t\t\tright: 20px;\n\t\t\tz-index: 99999;\n\t\t\twidth: 55px;\n\t\t}\n\t"
                     }}
                 />
-                <div className="main-wrapper">
-                    <div className="main-content logohead">
-                        <div className="container">
-                            <div className="row">
-                                <div className="span3 desktop-view">
-                                    {/* <div class="admission call-us"><a href="enquiry/index.html"><i class="fa fa-book" style="color:#fff;"></i> <p style="color:#fff;">Admission Enquiry</p></a></div> */}
-                                    <div className="top-socials" style={{ lineHeight: 120 }}>
+                <div className={styles.mainWrapper}>
+                    <div className={(styles.mainContent, styles.logohead)}>
+                        <div className={styles.container}>
+                            <div className={styles.row}>
+                                <div className={(styles.span3, styles.desktopView)}>
+                                    {/* <div className={(styles.admission, styles.callUs)}><a href="enquiry/index.html"><i className={(styles.fa, styles.faBook)} style="color:#fff;"></i> <p style="color:#fff;">Admission Enquiry</p></a></div> */}
+                                    <div className={styles.topSocials} style={{ lineHeight: 120 }}>
                                         <ul>
                                             <li>
                                                 <a
@@ -494,15 +507,15 @@ function Main() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="span6">
-                                    <div className="logo">
+                                <div className={styles.span6}>
+                                    <div className={styles.logo}>
                                         <a href="index-2.html">
                                             <img src="images/dps-jaipur-school-logo.png" alt="DPS Jaipur" />
                                         </a>
                                     </div>
                                 </div>
-                                <div className="span3" style={{ lineHeight: 120 }}>
-                                    {/* <div class="top-socials">
+                                <div className={styles.span3} style={{ lineHeight: 120 }}>
+                                    {/* <div className={styles.topSocials}>
 			<ul>
 				<li><a href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf" target="_blank"><img src="images/fb-icon.png" title="Facebook"></a></li>
 				<li><a href="https://www.instagram.com/dps_jaipur_official/" target="_blank"><img src="images/instagram.png" title="Instagram"></a></li>
@@ -521,16 +534,16 @@ function Main() {
                                 "\n\t\t\t.captcha {\n\t\t\t\tpadding: 3px 22px;\n\t\t\t\tmargin-bottom: 13px !important;\n\t\t\t\tbackground: #1a3454;\n\t\t\t\tfloat: left;\n\t\t\t\tfont-size: 19px;\n\t\t\t\tfont-style: italic;\n\t\t\t\tcolor: #FFF;\n\t\t\t\tfont-weight: bold;\n\t\t\t\tletter-spacing: 10px;\n\t\t\t\tcolor: white;\n\t\t\t}\n\n\t\t\t.focus-red:focus {\n\t\t\t\tbackground: #ffded4 !important;\n\t\t\t\tbox-shadow: none !important;\n\t\t\t\tcolor: #252525 !important;\n\t\t\t\toutline: navajowhite !important;\n\t\t\t}\n\n\t\t\t.focus-red:focus::-webkit-input-placeholder {\n\t\t\t\tcolor: #FFFFFF;\n\t\t\t}\n\n\t\t\t.focus-red:focus::-moz-placeholder {\n\t\t\t\tcolor: #FFFFFF;\n\t\t\t}\n\n\t\t\t.focus-red:focus:-ms-input-placeholder {\n\t\t\t\tcolor: #FFFFFF;\n\t\t\t}\n\n\t\t\t.focus-red:focus:-moz-placeholder {\n\t\t\t\tcolor: #FFFFFF;\n\t\t\t}\n\t\t"
                         }}
                     />
-                    <div className="main-content desktop-view navigation">
-                        <div className="container">
-                            <div className="row">
-                                <div className="span12">
-                                    <nav className="site-desktop-menu" style={{ listStyle: "none" }}>
-                                        <ul className="sf-menu clearfix">
-                                            <li className="" data-wow-delay="0.2s">
+                    <div className={(styles.mainContent, styles.desktopView, styles.navigation)}>
+                        <div className={styles.container}>
+                            <div className={styles.row}>
+                                <div className={styles.span12}>
+                                    <nav className={styles.siteDesktopMenu} style={{ listStyle: "none" }}>
+                                        <ul className={(styles.sfMenu, styles.clearfix)}>
+                                            <li class="" data-wow-delay="0.2s">
                                                 <a href="index-2.html"> Home</a>
                                             </li>
-                                            <li className="" data-wow-delay="0.3s">
+                                            <li class="" data-wow-delay="0.3s">
                                                 <a href="#">About Us</a>
                                                 <ul>
                                                     <li>
@@ -564,7 +577,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.8s">
+                                            <li class="" data-wow-delay="0.8s">
                                                 <a href="#">Infrastructure</a>
                                                 <ul>
                                                     <li>
@@ -595,7 +608,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.16s">
+                                            <li class="" data-wow-delay="0.16s">
                                                 <a href="#">Hostel</a>
                                                 <ul>
                                                     <li>
@@ -616,7 +629,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.21s">
+                                            <li class="" data-wow-delay="0.21s">
                                                 <a href="#">Admission</a>
                                                 <ul>
                                                     <li>
@@ -640,7 +653,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.26s">
+                                            <li class="" data-wow-delay="0.26s">
                                                 <a href="#">Academics</a>
                                                 <ul>
                                                     <li>
@@ -677,7 +690,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.37s">
+                                            <li class="" data-wow-delay="0.37s">
                                                 <a href="#">Gallery</a>
                                                 <ul>
                                                     <li>
@@ -688,7 +701,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.38s">
+                                            <li class="" data-wow-delay="0.38s">
                                                 <a href="#">Initiatives</a>
                                                 <ul>
                                                     <li>
@@ -698,7 +711,7 @@ function Main() {
                                                     </li>
                                                     <li>
                                                         <a href="#">Shiksha Kendra</a>
-                                                        <ul className="sub-menu">
+                                                        <ul className={styles.subMenu}>
                                                             <li>
                                                                 <a href="About.html">About</a>
                                                             </li>
@@ -714,7 +727,7 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.45s">
+                                            <li class="" data-wow-delay="0.45s">
                                                 <a href="#">Result</a>
                                                 <ul>
                                                     <li>
@@ -729,10 +742,10 @@ function Main() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="" data-wow-delay="0.70s">
+                                            <li class="" data-wow-delay="0.70s">
                                                 <a href="DPS-HOL.html"> Hubs of Learning</a>
                                             </li>
-                                            <li className="" data-wow-delay="0.82s">
+                                            <li class="" data-wow-delay="0.82s">
                                                 <a href="#">Devyani Jaipuria Tennis Academy</a>
                                                 <ul>
                                                     <li>
@@ -773,29 +786,29 @@ function Main() {
                                 "\n    .logo-on-scroll-top-show {\n        display: block !important;\n        z-index: 9999;\n\n        -webkit-animation: fadein 2s;\n        /* Safari, Chrome and Opera > 12.1 */\n        -moz-animation: fadein 2s;\n        /* Firefox < 16 */\n        -ms-animation: fadein 2s;\n        /* Internet Explorer */\n        -o-animation: fadein 2s;\n        /* Opera < 12.1 */\n        animation: fadein 2s;\n    }\n\n    .logo-fix {\n        position: fixed;\n        top: 0px;\n        left: 20px;\n        width: 120px;\n        height: 120px;\n        display: none;\n    }\n\n    .test-slide {\n        margin: 0 auto;\n    }\n\n    @keyframes fadein {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n\n    /* Firefox < 16 */\n    @-moz-keyframes fadein {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n\n    /* Safari, Chrome and Opera > 12.1 */\n    @-webkit-keyframes fadein {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n\n    /* Internet Explorer */\n    @-ms-keyframes fadein {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n\n    /* Opera < 12.1 */\n    @-o-keyframes fadein {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n"
                         }}
                     />
-                    {/*<div class="desktop-view">
-	<div class="logo-fix" style="">
+                    {/*<div className={styles.desktopView}>
+	<div className={styles.logoFix} style="">
 		<a href="index">
 			<img src="images/school-logo-fix.png" alt="">
 		</a>
 	</div>
 </div>*/}
-                    <div className="call-float-div-mayank">
-                        <div className="inner-call-float-mayank">
+                    <div className={styles.callFloatDivMayank}>
+                        <div className={styles.innerCallFloatMayank}>
                             <a id="ft1" style={{}}>
-                                <span className="hidden-xs contact-form-mayank">Enquire Now</span>
+                                <span className={(styles.hiddenXs, styles.contactFormMayank)}>Enquire Now</span>
                             </a>
                             <div
-                                className="info-call-mayank"
+                                className={styles.infoCallMayank}
                                 id="demo"
                                 style={{ position: "relative", display: "none" }}
                             >
-                                <div className="text-center">
-                                    <h3 className="call-heading-mayank">
+                                <div className={styles.textCenter}>
+                                    <h3 className={styles.callHeadingMayank}>
                                         Admission Enquiry Form
                                         <span>
                                             <i
-                                                className="fa fa-times-circle"
+                                                className={(styles.fa, styles.faTimesCircle)}
                                                 id="times"
                                                 aria-hidden="true"
                                             />
@@ -827,38 +840,38 @@ function Main() {
                                     />
                                     <input
                                         type="hidden"
-                                        className="columnlabel"
+                                        className={styles.columnlabel}
                                         defaultValue="https://www.dpsjaipur.com/index.php?msg=thanks"
                                         name="thankspage"
                                         id="thankspage"
                                     />
                                     <input
                                         type="hidden"
-                                        className="columnlabel"
+                                        className={styles.columnlabel}
                                         defaultValue="https://www.dpsjaipur.com/index.php?msg=error"
                                         name="errorpage"
                                         id="errorpage"
                                     />
                                     <input
                                         type="hidden"
-                                        className="columnlabel"
+                                        className={styles.columnlabel}
                                         defaultValue={1}
                                         name="isweb"
                                         id="isweb"
                                     />
-                                    <div className="form-input-div formfieldID">
-                                        <div className="form-group">
+                                    <div className={(styles.formInputDiv, styles.formfieldId)}>
+                                        <div className={styles.formGroup}>
                                             <input
                                                 type="text"
                                                 name="firstname"
-                                                className="form-control txt-call-code-mayank"
+                                                className={(styles.formControl, styles.txtCallCodeMayank)}
                                                 placeholder="Name"
                                                 required=""
                                             />
                                             <input
                                                 type="text"
                                                 name="fathername"
-                                                className="form-control txt-call-code-mayank"
+                                                className={(styles.formControl, styles.txtCallCodeMayank)}
                                                 placeholder="Parent's name"
                                                 required=""
                                             />
@@ -866,7 +879,7 @@ function Main() {
                                                 type="text"
                                                 name="mobileno"
                                                 required="form-control"
-                                                className="form-control numbervalue txt-call-code-mayank"
+                                                className={(styles.formControl, styles.numbervalue, styles.txtCallCodeMayank)}
                                                 maxLength={10}
                                                 placeholder="Mobile no."
                                             />
@@ -874,13 +887,13 @@ function Main() {
                                                 type="email"
                                                 name="email"
                                                 required="form-control"
-                                                className="form-control txt-call-code-mayank"
+                                                className={(styles.formControl, styles.txtCallCodeMayank)}
                                                 placeholder="Email ID"
                                             />
                                             <h6>Class Applying for</h6>
                                             <select
                                                 name="classid"
-                                                className="form-control txt-call-code-mayank"
+                                                className={(styles.formControl, styles.txtCallCodeMayank)}
                                             >
                                                 <option value="">Select</option>
                                                 <option value={1}>NURSERY</option>
@@ -904,7 +917,7 @@ function Main() {
                                     <button
                                         type="submit"
                                         name="submit"
-                                        className="btn btn-success text-center page-form-btn"
+                                        className={(styles.btn, styles.btnSuccess, styles.textCenter, styles.pageFormBtn)}
                                     >
                                         Submit
                                     </button>
@@ -913,9 +926,9 @@ function Main() {
                         </div>
                     </div>
                     {/* Popup Flyer Start */}
-                    <div className="">
+                    <div class="">
                         <a href="https://bit.ly/3MmjHza"></a>
-                        <div id="myModal" className="reveal-modal" style={{ zIndex: 100000 }}>
+                        <div id="myModal" className={styles.revealModal} style={{ zIndex: 100000 }}>
                             <a href="https://bit.ly/3MmjHza"></a>
                             <div style={{ padding: 10, color: "#fff", textAlign: "justify" }}>
                                 <a href="https://bit.ly/3MmjHza">
@@ -927,13 +940,13 @@ function Main() {
                                 </p>{" "}
                                 <img alt="DPS Jaipur" src="upload/popup/69781684509487.png" /> <p />
                             </div>
-                            <a className="close-reveal-modal">×</a>
+                            <a className={styles.closeRevealModal}>×</a>
                         </div>
                     </div>
                     {/* Popup Flyer End */}
                     <style dangerouslySetInnerHTML={{ __html: "\n    .ls-s-2 block-2 {}\n" }} />
                     {/* Slider Start */}
-                    <div id="layerslider-container-fw" className="home-slider slider-banners">
+                    <div id="layerslider-container-fw" className={(styles.homeSlider, styles.sliderBanners)}>
                         <div
                             id="layerslider"
                             style={{
@@ -942,15 +955,15 @@ function Main() {
                                 margin: "0px auto"
                             }}
                         >
-                            <div className="ls-layer">
+                            <div className={styles.lsLayer}>
                                 <img
                                     style={{ marginTop: "273px !important" }}
                                     src="images/slider/875021656948443.jpg"
-                                    className="ls-bg"
+                                    className={styles.lsBg}
                                     alt="DPS Jaipur"
                                 />
                                 <p
-                                    className="ls-s-1 block-1"
+                                    className={(styles.lsS_1, styles.block_1)}
                                     style={{
                                         slidedirection: "bottom",
                                         slideoutdirection: "top",
@@ -973,17 +986,17 @@ function Main() {
                                 >
                                     My school, my happy place!
                                 </p>
-                                {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">My school, my happy place!</p>*/}
+                                {/*<p className={(styles.lsS_2, styles.block_2)} style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">My school, my happy place!</p>*/}
                             </div>
-                            <div className="ls-layer">
+                            <div className={styles.lsLayer}>
                                 <img
                                     style={{ marginTop: "273px !important" }}
                                     src="images/slider/115081656949217.jpg"
-                                    className="ls-bg"
+                                    className={styles.lsBg}
                                     alt="DPS Jaipur"
                                 />
                                 <p
-                                    className="ls-s-1 block-1"
+                                    className={(styles.lsS_1, styles.block_1)}
                                     style={{
                                         slidedirection: "bottom",
                                         slideoutdirection: "top",
@@ -1006,17 +1019,17 @@ function Main() {
                                 >
                                     Heralding the era of new age learning.
                                 </p>
-                                {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Heralding the era of new age learning.</p>*/}
+                                {/*<p className={(styles.lsS_2, styles.block_2)} style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Heralding the era of new age learning.</p>*/}
                             </div>
-                            <div className="ls-layer">
+                            <div className={styles.lsLayer}>
                                 <img
                                     style={{ marginTop: "273px !important" }}
                                     src="images/slider/513481656949876.jpg"
-                                    className="ls-bg"
+                                    className={styles.lsBg}
                                     alt="DPS Jaipur"
                                 />
                                 <p
-                                    className="ls-s-1 block-1"
+                                    className={(styles.lsS_1, styles.block_1)}
                                     style={{
                                         slidedirection: "bottom",
                                         slideoutdirection: "top",
@@ -1039,17 +1052,17 @@ function Main() {
                                 >
                                     Art - The Global Connect.
                                 </p>
-                                {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Art - The Global Connect.</p>*/}
+                                {/*<p className={(styles.lsS_2, styles.block_2)} style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Art - The Global Connect.</p>*/}
                             </div>
-                            <div className="ls-layer">
+                            <div className={styles.lsLayer}>
                                 <img
                                     style={{ marginTop: "273px !important" }}
                                     src="images/slider/992291645608793.jpg"
-                                    className="ls-bg"
+                                    className={styles.lsBg}
                                     alt="DPS Jaipur"
                                 />
                                 <p
-                                    className="ls-s-1 block-1"
+                                    className={(styles.lsS_1, styles.block_1)}
                                     style={{
                                         slidedirection: "bottom",
                                         slideoutdirection: "top",
@@ -1072,17 +1085,17 @@ function Main() {
                                 >
                                     Girls in blue- Reaching beyond the boundaries
                                 </p>
-                                {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Girls in blue- Reaching beyond the boundaries</p>*/}
+                                {/*<p className={(styles.lsS_2, styles.block_2)} style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">Girls in blue- Reaching beyond the boundaries</p>*/}
                             </div>
-                            <div className="ls-layer">
+                            <div className={styles.lsLayer}>
                                 <img
                                     style={{ marginTop: "273px !important" }}
                                     src="images/slider/285451656950051.jpg"
-                                    className="ls-bg"
+                                    className={styles.lsBg}
                                     alt="DPS Jaipur"
                                 />
                                 <p
-                                    className="ls-s-1 block-1"
+                                    className={(styles.lsS_1, styles.block_1)}
                                     style={{
                                         slidedirection: "bottom",
                                         slideoutdirection: "top",
@@ -1105,7 +1118,7 @@ function Main() {
                                 >
                                     A World of opportunities.
                                 </p>
-                                {/*<p class="ls-s-2 block-2" style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">A World of opportunities.</p>*/}
+                                {/*<p className={(styles.lsS_2, styles.block_2)} style="slidedirection : bottom; slideoutdirection : top; left: 0px; top: 320px; durationin: 1000; easingin: easeOutExpo; delayin: 800; delayou: 1200;background:rgb(9 39 75 / .8);padding:0px 20px;color:#fff;">A World of opportunities.</p>*/}
                             </div>
                         </div>
                     </div>
@@ -1115,9 +1128,9 @@ function Main() {
                                 "\n    @-webkit-keyframes NAME-YOUR-ANIMATION {\n\n        0%,\n        49% {\n            background-color: #03723b;\n        }\n\n        50%,\n        100% {\n            background-color: #04a053;\n        }\n    }\n\n    .quicklinkshomepay {\n        position: absolute;\n        top: 9px;\n        left: 145px;\n        width: 116px;\n        font-size: 12px;\n        height: 39px;\n        padding: 10px 8px 8px 10px;\n        /* border-radius: 100px; */\n        line-height: 8px;\n        color: #fff;\n        z-index: 0;\n        cursor: pointer;\n        transition: all 0.5s ease-out 0s;\n        border: 5px rgba(135, 194, 235, 0.15) solid;\n        background-clip: padding-box;\n        -webkit-box-shadow: 0px 5px 29px 0px rgba(0, 0, 0, 0.19);\n        box-shadow: 0px 5px 29px 0px rgba(0, 0, 0, 0.19);\n        outline: none;\n        -webkit-animation: NAME-YOUR-ANIMATION 1s infinite;\n        -moz-animation: NAME-YOUR-ANIMATION 1s infinite;\n        -o-animation: NAME-YOUR-ANIMATION 1s infinite;\n        animation: NAME-YOUR-ANIMATION 1s infinite;\n    }\n"
                         }}
                     />
-                    <a className="mobile-view" href="login/index.html" target="_blank">
-                        <div className="quicklinkshomepay">
-                            <i className="fa fa-sign-in text-white" /> Student Login
+                    <a className={styles.mobileView} href="login/index.html" target="_blank">
+                        <div className={styles.quicklinkshomepay}>
+                            <i className={(styles.fa, styles.faSignIn, styles.textWhite)} /> Student Login
                         </div>
                     </a>
                     <style
@@ -1127,11 +1140,11 @@ function Main() {
                         }}
                     />
                     {/* News Ticker start //*/}
-                    <div className="purchase" style={{ background: "#DB9C27" }}>
-                        <div className="container" style={{ padding: "5px 0px 4px" }}>
-                            <div className="row">
-                                <div className="thought">
-                                    <div className="span12">
+                    <div className={styles.purchase} style={{ background: "#DB9C27" }}>
+                        <div className={styles.container} style={{ padding: "5px 0px 4px" }}>
+                            <div className={styles.row}>
+                                <div className={styles.thought}>
+                                    <div className={styles.span12}>
                                         <marquee
                                             scrollamount={4}
                                             scrolldelay={40}
@@ -1153,12 +1166,12 @@ function Main() {
                     </div>
                     {/* News Ticker End //*/}
                     {/* News Ticker start //*/}
-                    <div className="purchase" style={{}}>
-                        <div className="container" style={{ padding: "5px 0px 4px" }}>
-                            <div className="row">
-                                <div className="thought">
+                    <div className={styles.purchase} style={{}}>
+                        <div className={styles.container} style={{ padding: "5px 0px 4px" }}>
+                            <div className={styles.row}>
+                                <div className={styles.thought}>
                                     <div
-                                        className="span2 desktop-view"
+                                        className={(styles.span2, styles.desktopView)}
                                         style={{ background: "#DB9C27" }}
                                     >
                                         <h2
@@ -1178,7 +1191,7 @@ function Main() {
                                         </h2>
                                     </div>
                                     <div
-                                        className="span2 mobile-view"
+                                        className={(styles.span2, styles.mobileView)}
                                         style={{ background: "#03723b" }}
                                     >
                                         <h2
@@ -1199,7 +1212,7 @@ function Main() {
                                             New Notifications
                                         </h2>
                                     </div>
-                                    <div className="span10 desktop-view" style={{ marginTop: 6 }}>
+                                    <div className={(styles.span10, styles.desktopView)} style={{ marginTop: 6 }}>
                                         <marquee
                                             scrollamount={4}
                                             scrolldelay={40}
@@ -1243,7 +1256,7 @@ function Main() {
                                             </ul>
                                         </marquee>
                                     </div>
-                                    <div className="span10 mobile-view">
+                                    <div className={(styles.span10, styles.mobileView)}>
                                         <marquee
                                             scrollamount={2}
                                             scrolldelay={40}
@@ -1299,16 +1312,16 @@ function Main() {
                                 "\n    .heading-correct-pronounciation {\n        margin: 25px 0px 30px;\n        text-align: center;\n        position: relative;\n        font-family: 'Vollkorn', serif;\n        font-weight: 100 !important;\n    }\n\n    h1 {\n        color: #fff;\n        font-size: 1.5em;\n        font-weight: normal;\n        font-style: italic;\n        letter-spacing: 0.1em;\n        line-height: 2.2em;\n    }\n\n    em {\n        font-size: 40px;\n        text-transform: uppercase;\n        letter-spacing: 0.1em;\n        display: block;\n        font-style: normal;\n        padding-top: 0.1em;\n        text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);\n        color: #09274b;\n    }\n\n    em::before,\n    em::after {\n        content: \"§\";\n        display: inline-block;\n        -webkit-transform: rotate(90deg);\n        -moz-transform: rotate(90deg);\n        -o-transform: rotate(90deg);\n        -ms-transform: rotate(90deg);\n        transform: rotate(90deg);\n        opacity: 1;\n        margin: 0 0.6em;\n        font-size: 0.7em;\n    }\n"
                         }}
                     />
-                    <div className="main-content" id="hm-news-bg">
-                        <div className="container" style={{ padding: "0px 0px 20px" }}>
-                            <div className="row">
-                                <div className="span12">
-                                    <div className="heading">
+                    <div className={styles.mainContent} id="hm-news-bg">
+                        <div className={styles.container} style={{ padding: "0px 0px 20px" }}>
+                            <div className={styles.row}>
+                                <div className={styles.span12}>
+                                    <div className={styles.heading}>
                                         <h1>News &amp; Events</h1>
                                     </div>
                                 </div>
-                                <div className="span4">
-                                    <div className="features-box">
+                                <div className={styles.span4}>
+                                    <div className={styles.featuresBox}>
                                         <h3>
                                             <a
                                                 href="upcoming-event.html"
@@ -1317,8 +1330,8 @@ function Main() {
                                                 Upcoming Events
                                             </a>
                                         </h3>
-                                        <div className="hm-features-content">
-                                            <ul className="ticker">
+                                        <div className={styles.hmFeaturesContent}>
+                                            <ul className={styles.ticker}>
                                                 <marquee
                                                     style={{ height: 255 }}
                                                     direction="down"
@@ -1462,7 +1475,7 @@ function Main() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="span4" style={{ marginTop: "-8px" }}>
+                                <div className={styles.span4} style={{ marginTop: "-8px" }}>
                                     <iframe
                                         src="calendar/index.html"
                                         name="I1"
@@ -1475,8 +1488,8 @@ function Main() {
                                         configured not to display inline frames.
                                     </iframe>
                                 </div>
-                                <div className="span4">
-                                    <div className="features-box">
+                                <div className={styles.span4}>
+                                    <div className={styles.featuresBox}>
                                         <h3>
                                             <a
                                                 href="latest-news.html"
@@ -1485,9 +1498,9 @@ function Main() {
                                                 News &amp; Updates
                                             </a>
                                         </h3>
-                                        <div className="hm-features-content">
-                                            <ul className="ticker" id="circulars">
-                                                <li className="news-events-box-items">
+                                        <div className={styles.hmFeaturesContent}>
+                                            <ul className={styles.ticker} id="circulars">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3456.html?gal_id=440">
                                                         <span
                                                             style={{
@@ -1499,10 +1512,10 @@ function Main() {
                                                         >
                                                             13th of May 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Mother’s Day celebrated...</div>
+                                                        <div className={styles.tileBox}>Mother’s Day celebrated...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4c51.html?gal_id=435">
                                                         <span
                                                             style={{
@@ -1514,12 +1527,12 @@ function Main() {
                                                         >
                                                             29th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Dress-up Activity by the ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailcebc.html?gal_id=436">
                                                         <span
                                                             style={{
@@ -1531,13 +1544,13 @@ function Main() {
                                                         >
                                                             29th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             SPIC MACAY EVENT AT DPS ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0eef.html?gal_id=438">
                                                         <span
                                                             style={{
@@ -1549,12 +1562,12 @@ function Main() {
                                                         >
                                                             28th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Senior School - Inter -Ho...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb977.html?gal_id=439">
                                                         <span
                                                             style={{
@@ -1566,12 +1579,12 @@ function Main() {
                                                         >
                                                             27th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             VIRTUAL TRIP TO THE MOON ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaileddf.html?gal_id=434">
                                                         <span
                                                             style={{
@@ -1583,10 +1596,10 @@ function Main() {
                                                         >
                                                             12th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Session on Yoga...</div>
+                                                        <div className={styles.tileBox}>Session on Yoga...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0411.html?gal_id=432">
                                                         <span
                                                             style={{
@@ -1598,12 +1611,12 @@ function Main() {
                                                         >
                                                             7th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             20 Glorious Years of DPSJ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail618e.html?gal_id=431">
                                                         <span
                                                             style={{
@@ -1615,12 +1628,12 @@ function Main() {
                                                         >
                                                             6th of April 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Football for ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2d6d.html?gal_id=433">
                                                         <span
                                                             style={{
@@ -1632,12 +1645,12 @@ function Main() {
                                                         >
                                                             25th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Staff Get together at Del...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild64e.html?gal_id=429">
                                                         <span
                                                             style={{
@@ -1649,12 +1662,12 @@ function Main() {
                                                         >
                                                             16th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Orientation and Culminati...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0449.html?gal_id=426">
                                                         <span
                                                             style={{
@@ -1666,10 +1679,10 @@ function Main() {
                                                         >
                                                             12th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Achievement Unlocked...</div>
+                                                        <div className={styles.tileBox}>Achievement Unlocked...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5b4d.html?gal_id=422">
                                                         <span
                                                             style={{
@@ -1681,10 +1694,10 @@ function Main() {
                                                         >
                                                             6th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Poem by Suchi Banthia...</div>
+                                                        <div className={styles.tileBox}>Poem by Suchi Banthia...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9999.html?gal_id=423">
                                                         <span
                                                             style={{
@@ -1696,10 +1709,10 @@ function Main() {
                                                         >
                                                             5th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">University Placements ...</div>
+                                                        <div className={styles.tileBox}>University Placements ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9728.html?gal_id=424">
                                                         <span
                                                             style={{
@@ -1711,12 +1724,12 @@ function Main() {
                                                         >
                                                             4th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Workshop on Gender Sensit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1c51.html?gal_id=425">
                                                         <span
                                                             style={{
@@ -1728,12 +1741,12 @@ function Main() {
                                                         >
                                                             4th of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Women's Day Fest at Clark...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbb9c.html?gal_id=420">
                                                         <span
                                                             style={{
@@ -1745,12 +1758,12 @@ function Main() {
                                                         >
                                                             2nd of March 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             LEXICAL MISH MASH AT Delh...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail525c.html?gal_id=430">
                                                         <span
                                                             style={{
@@ -1762,12 +1775,12 @@ function Main() {
                                                         >
                                                             14th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Orientation_And_Culminati...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1f72.html?gal_id=419">
                                                         <span
                                                             style={{
@@ -1779,12 +1792,12 @@ function Main() {
                                                         >
                                                             13th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Priyanshu...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc620.html?gal_id=415">
                                                         <span
                                                             style={{
@@ -1796,12 +1809,12 @@ function Main() {
                                                         >
                                                             9th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Safer Internet Day - Asse...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf43f.html?gal_id=418">
                                                         <span
                                                             style={{
@@ -1813,12 +1826,12 @@ function Main() {
                                                         >
                                                             9th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Assembly on Safer Interne...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila2e7.html?gal_id=414">
                                                         <span
                                                             style={{
@@ -1830,12 +1843,12 @@ function Main() {
                                                         >
                                                             7th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Assembly on 'Road Safety'...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0306.html?gal_id=417">
                                                         <span
                                                             style={{
@@ -1847,12 +1860,12 @@ function Main() {
                                                         >
                                                             7th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Assembly on Road Safety ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailde28.html?gal_id=413">
                                                         <span
                                                             style={{
@@ -1864,12 +1877,12 @@ function Main() {
                                                         >
                                                             6th of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur wins the award...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0657.html?gal_id=412">
                                                         <span
                                                             style={{
@@ -1881,10 +1894,10 @@ function Main() {
                                                         >
                                                             3rd of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Brainvita - G.K. Quiz...</div>
+                                                        <div className={styles.tileBox}>Brainvita - G.K. Quiz...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild17d.html?gal_id=416">
                                                         <span
                                                             style={{
@@ -1896,12 +1909,12 @@ function Main() {
                                                         >
                                                             3rd of February 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Brainvita G.K. Quiz for F...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila364.html?gal_id=401">
                                                         <span
                                                             style={{
@@ -1913,12 +1926,12 @@ function Main() {
                                                         >
                                                             30th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Khwahish Bajpai of grade ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail174c.html?gal_id=411">
                                                         <span
                                                             style={{
@@ -1930,10 +1943,10 @@ function Main() {
                                                         >
                                                             30th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Stationary Drive...</div>
+                                                        <div className={styles.tileBox}>Stationary Drive...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7bb4.html?gal_id=406">
                                                         <span
                                                             style={{
@@ -1945,12 +1958,12 @@ function Main() {
                                                         >
                                                             27th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Stationery And Toy Drive...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0eae.html?gal_id=403">
                                                         <span
                                                             style={{
@@ -1962,12 +1975,12 @@ function Main() {
                                                         >
                                                             25th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Ek Bharat, Shrestha Bhara...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3be5.html?gal_id=404">
                                                         <span
                                                             style={{
@@ -1979,12 +1992,12 @@ function Main() {
                                                         >
                                                             25th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Fancy dress activity Pre-...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf548.html?gal_id=407">
                                                         <span
                                                             style={{
@@ -1996,10 +2009,10 @@ function Main() {
                                                         >
                                                             25th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Phad se Padh ...</div>
+                                                        <div className={styles.tileBox}>Phad se Padh ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailffa8.html?gal_id=408">
                                                         <span
                                                             style={{
@@ -2011,10 +2024,10 @@ function Main() {
                                                         >
                                                             25th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Fancy Dress Activity ...</div>
+                                                        <div className={styles.tileBox}>Fancy Dress Activity ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail980e.html?gal_id=410">
                                                         <span
                                                             style={{
@@ -2026,12 +2039,12 @@ function Main() {
                                                         >
                                                             25th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hindi Poetry Recitation C...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila4ec.html?gal_id=402">
                                                         <span
                                                             style={{
@@ -2043,12 +2056,12 @@ function Main() {
                                                         >
                                                             24th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             World Education Day: Phad...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6c2f.html?gal_id=405">
                                                         <span
                                                             style={{
@@ -2060,12 +2073,12 @@ function Main() {
                                                         >
                                                             19th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Naisha Shekhawat of grade...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail32c9.html?gal_id=398">
                                                         <span
                                                             style={{
@@ -2077,12 +2090,12 @@ function Main() {
                                                         >
                                                             9th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur, launched DJTA...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailaea7.html?gal_id=400">
                                                         <span
                                                             style={{
@@ -2094,10 +2107,10 @@ function Main() {
                                                         >
                                                             9th of January 2023{" "}
                                                         </span>
-                                                        <div className="tile-box">Launching of DJTA...</div>
+                                                        <div className={styles.tileBox}>Launching of DJTA...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail31f3.html?gal_id=399">
                                                         <span
                                                             style={{
@@ -2109,10 +2122,10 @@ function Main() {
                                                         >
                                                             24th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Christmas Fiesta ...</div>
+                                                        <div className={styles.tileBox}>Christmas Fiesta ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail52bf.html?gal_id=390">
                                                         <span
                                                             style={{
@@ -2124,10 +2137,10 @@ function Main() {
                                                         >
                                                             19th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">The VII DPS Cup...</div>
+                                                        <div className={styles.tileBox}>The VII DPS Cup...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2202.html?gal_id=397">
                                                         <span
                                                             style={{
@@ -2139,12 +2152,12 @@ function Main() {
                                                         >
                                                             19th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The VII DPS Cup Cub Crick...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail534e.html?gal_id=391">
                                                         <span
                                                             style={{
@@ -2156,10 +2169,10 @@ function Main() {
                                                         >
                                                             13th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">History Festival ...</div>
+                                                        <div className={styles.tileBox}>History Festival ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2099.html?gal_id=396">
                                                         <span
                                                             style={{
@@ -2171,12 +2184,12 @@ function Main() {
                                                         >
                                                             13th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             History Festival - Phad ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb7c0.html?gal_id=394">
                                                         <span
                                                             style={{
@@ -2188,12 +2201,12 @@ function Main() {
                                                         >
                                                             4th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             English Poem Recitation ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila0e9.html?gal_id=395">
                                                         <span
                                                             style={{
@@ -2205,12 +2218,12 @@ function Main() {
                                                         >
                                                             4th of December 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Pre-Nur to II English Rec...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailef72.html?gal_id=393">
                                                         <span
                                                             style={{
@@ -2222,12 +2235,12 @@ function Main() {
                                                         >
                                                             28th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Akshita B...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail930c.html?gal_id=389">
                                                         <span
                                                             style={{
@@ -2239,10 +2252,10 @@ function Main() {
                                                         >
                                                             17th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Congratulations! ...</div>
+                                                        <div className={styles.tileBox}>Congratulations! ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila07d.html?gal_id=385">
                                                         <span
                                                             style={{
@@ -2254,12 +2267,12 @@ function Main() {
                                                         >
                                                             14th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mega Tinkering Activity b...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailef61.html?gal_id=386">
                                                         <span
                                                             style={{
@@ -2271,12 +2284,12 @@ function Main() {
                                                         >
                                                             14th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mega Tinkering Activity ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbbf9.html?gal_id=387">
                                                         <span
                                                             style={{
@@ -2288,10 +2301,10 @@ function Main() {
                                                         >
                                                             14th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Children’s Day Celebrat...</div>
+                                                        <div className={styles.tileBox}>Children’s Day Celebrat...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4a4f.html?gal_id=388">
                                                         <span
                                                             style={{
@@ -2303,10 +2316,10 @@ function Main() {
                                                         >
                                                             14th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Children’s Day Celebrat...</div>
+                                                        <div className={styles.tileBox}>Children’s Day Celebrat...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile536.html?gal_id=392">
                                                         <span
                                                             style={{
@@ -2318,12 +2331,12 @@ function Main() {
                                                         >
                                                             10th of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Kritika Vats, Tanishka kh...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0b47.html?gal_id=384">
                                                         <span
                                                             style={{
@@ -2335,12 +2348,12 @@ function Main() {
                                                         >
                                                             1st of November 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Akshita!...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8e5a.html?gal_id=380">
                                                         <span
                                                             style={{
@@ -2352,12 +2365,12 @@ function Main() {
                                                         >
                                                             31st of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Special Assembly - Nation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9405.html?gal_id=381">
                                                         <span
                                                             style={{
@@ -2369,12 +2382,12 @@ function Main() {
                                                         >
                                                             31st of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             National Unity Day Specia...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7416.html?gal_id=378">
                                                         <span
                                                             style={{
@@ -2386,12 +2399,12 @@ function Main() {
                                                         >
                                                             20th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Diwali Assembly by Grade ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail44b3.html?gal_id=379">
                                                         <span
                                                             style={{
@@ -2403,10 +2416,10 @@ function Main() {
                                                         >
                                                             20th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Diwali Celebration ...</div>
+                                                        <div className={styles.tileBox}>Diwali Celebration ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail51a9.html?gal_id=369">
                                                         <span
                                                             style={{
@@ -2418,12 +2431,12 @@ function Main() {
                                                         >
                                                             19th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Celebrating World Mental ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila66e.html?gal_id=367">
                                                         <span
                                                             style={{
@@ -2435,12 +2448,12 @@ function Main() {
                                                         >
                                                             17th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Another milestone achieve...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbcac.html?gal_id=365">
                                                         <span
                                                             style={{
@@ -2452,12 +2465,12 @@ function Main() {
                                                         >
                                                             14th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Aniruddh....
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail62a4.html?gal_id=366">
                                                         <span
                                                             style={{
@@ -2469,12 +2482,12 @@ function Main() {
                                                         >
                                                             14th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Delhi Public School, Jaip...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0b97.html?gal_id=383">
                                                         <span
                                                             style={{
@@ -2486,12 +2499,12 @@ function Main() {
                                                         >
                                                             14th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Investiture and Scholar B...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail04c1.html?gal_id=368">
                                                         <span
                                                             style={{
@@ -2503,12 +2516,12 @@ function Main() {
                                                         >
                                                             11th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Closing Ceremony of 17th ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf938.html?gal_id=377">
                                                         <span
                                                             style={{
@@ -2520,12 +2533,12 @@ function Main() {
                                                         >
                                                             11th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             17th C.L Jaipuria Memoria...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1723.html?gal_id=376">
                                                         <span
                                                             style={{
@@ -2537,12 +2550,12 @@ function Main() {
                                                         >
                                                             10th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Day 3 of C.L Jaipuria Mem...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7b36.html?gal_id=375">
                                                         <span
                                                             style={{
@@ -2554,12 +2567,12 @@ function Main() {
                                                         >
                                                             9th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Day 2 of C.L Jaipuria Mem...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb32f.html?gal_id=374">
                                                         <span
                                                             style={{
@@ -2571,12 +2584,12 @@ function Main() {
                                                         >
                                                             8th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             First Day of C.L Jaipuria...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8e3f.html?gal_id=370">
                                                         <span
                                                             style={{
@@ -2588,12 +2601,12 @@ function Main() {
                                                         >
                                                             7th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Navratri Celebration by t...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail79a6.html?gal_id=371">
                                                         <span
                                                             style={{
@@ -2605,10 +2618,10 @@ function Main() {
                                                         >
                                                             7th of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Navratri Celebration ...</div>
+                                                        <div className={styles.tileBox}>Navratri Celebration ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4080.html?gal_id=372">
                                                         <span
                                                             style={{
@@ -2620,12 +2633,12 @@ function Main() {
                                                         >
                                                             2nd of October 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Day of Non-...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail93b0.html?gal_id=382">
                                                         <span
                                                             style={{
@@ -2637,12 +2650,12 @@ function Main() {
                                                         >
                                                             31st of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Scholar Badge Ceremony Cl...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6bca.html?gal_id=364">
                                                         <span
                                                             style={{
@@ -2654,12 +2667,12 @@ function Main() {
                                                         >
                                                             23rd of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Scholar Badge Ceremony fo...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7cd8.html?gal_id=362">
                                                         <span
                                                             style={{
@@ -2671,10 +2684,10 @@ function Main() {
                                                         >
                                                             13th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Mini PTM...</div>
+                                                        <div className={styles.tileBox}>Mini PTM...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail78d0.html?gal_id=360">
                                                         <span
                                                             style={{
@@ -2686,10 +2699,10 @@ function Main() {
                                                         >
                                                             12th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Independence Day...</div>
+                                                        <div className={styles.tileBox}>Independence Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail84c7.html?gal_id=359">
                                                         <span
                                                             style={{
@@ -2701,12 +2714,12 @@ function Main() {
                                                         >
                                                             11th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Raksha Bandhan Celebratio...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9c64.html?gal_id=361">
                                                         <span
                                                             style={{
@@ -2718,12 +2731,12 @@ function Main() {
                                                         >
                                                             10th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Rakshabandhan Celebration...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail01df.html?gal_id=358">
                                                         <span
                                                             style={{
@@ -2735,12 +2748,12 @@ function Main() {
                                                         >
                                                             6th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS SETS ANOTHER BENCHMAR...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila686.html?gal_id=356">
                                                         <span
                                                             style={{
@@ -2752,12 +2765,12 @@ function Main() {
                                                         >
                                                             5th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Ariba Mir...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf926.html?gal_id=357">
                                                         <span
                                                             style={{
@@ -2769,10 +2782,10 @@ function Main() {
                                                         >
                                                             5th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Congratulations......</div>
+                                                        <div className={styles.tileBox}>Congratulations......</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7fb1.html?gal_id=355">
                                                         <span
                                                             style={{
@@ -2784,12 +2797,12 @@ function Main() {
                                                         >
                                                             4th of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations on your a...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail054a.html?gal_id=354">
                                                         <span
                                                             style={{
@@ -2801,12 +2814,12 @@ function Main() {
                                                         >
                                                             2nd of August 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Our Squash Champ Avalokit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5830.html?gal_id=363">
                                                         <span
                                                             style={{
@@ -2818,10 +2831,10 @@ function Main() {
                                                         >
                                                             29th of July 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Activity- Spellathon ...</div>
+                                                        <div className={styles.tileBox}>Activity- Spellathon ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0b8f.html?gal_id=353">
                                                         <span
                                                             style={{
@@ -2833,12 +2846,12 @@ function Main() {
                                                         >
                                                             2nd of July 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Story Telling Session...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailfe8d.html?gal_id=352">
                                                         <span
                                                             style={{
@@ -2850,12 +2863,12 @@ function Main() {
                                                         >
                                                             10th of June 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Magic Show by Illusionist...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf37a.html?gal_id=349">
                                                         <span
                                                             style={{
@@ -2867,12 +2880,12 @@ function Main() {
                                                         >
                                                             19th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shaurya - Hindi Recitatio...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail23bd.html?gal_id=350">
                                                         <span
                                                             style={{
@@ -2884,12 +2897,12 @@ function Main() {
                                                         >
                                                             19th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shaurya- Hindi Poem Recit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailde29.html?gal_id=351">
                                                         <span
                                                             style={{
@@ -2901,12 +2914,12 @@ function Main() {
                                                         >
                                                             18th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Neerajakshi of grade XII ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbab9.html?gal_id=345">
                                                         <span
                                                             style={{
@@ -2918,12 +2931,12 @@ function Main() {
                                                         >
                                                             17th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Girls Volleyb...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailcf6b.html?gal_id=346">
                                                         <span
                                                             style={{
@@ -2935,12 +2948,12 @@ function Main() {
                                                         >
                                                             17th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Girls Volleyb...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail775f.html?gal_id=347">
                                                         <span
                                                             style={{
@@ -2952,12 +2965,12 @@ function Main() {
                                                         >
                                                             17th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Fun with Colors -Curves a...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0013.html?gal_id=348">
                                                         <span
                                                             style={{
@@ -2969,12 +2982,12 @@ function Main() {
                                                         >
                                                             17th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Curves and Strokes and Ti...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6d64.html?gal_id=344">
                                                         <span
                                                             style={{
@@ -2986,12 +2999,12 @@ function Main() {
                                                         >
                                                             16th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Middle School Inter House...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3f3b.html?gal_id=342">
                                                         <span
                                                             style={{
@@ -3003,10 +3016,10 @@ function Main() {
                                                         >
                                                             14th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">RHYTHMICA 2022...</div>
+                                                        <div className={styles.tileBox}>RHYTHMICA 2022...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2d6e.html?gal_id=343">
                                                         <span
                                                             style={{
@@ -3018,10 +3031,10 @@ function Main() {
                                                         >
                                                             14th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">DPSJ RHYTHMICA 2022...</div>
+                                                        <div className={styles.tileBox}>DPSJ RHYTHMICA 2022...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6ce3.html?gal_id=341">
                                                         <span
                                                             style={{
@@ -3033,12 +3046,12 @@ function Main() {
                                                         >
                                                             13th of May 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Gold Medal for winning Ta...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2671.html?gal_id=337">
                                                         <span
                                                             style={{
@@ -3050,10 +3063,10 @@ function Main() {
                                                         >
                                                             25th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Investiture Ceremony...</div>
+                                                        <div className={styles.tileBox}>Investiture Ceremony...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3208.html?gal_id=338">
                                                         <span
                                                             style={{
@@ -3065,12 +3078,12 @@ function Main() {
                                                         >
                                                             25th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Investiture Ceremony ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaildd83.html?gal_id=340">
                                                         <span
                                                             style={{
@@ -3082,12 +3095,12 @@ function Main() {
                                                         >
                                                             23rd of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Earth Day Celebration Pre...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaileb66.html?gal_id=335">
                                                         <span
                                                             style={{
@@ -3099,12 +3112,12 @@ function Main() {
                                                         >
                                                             19th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Friendship Cup- Alumn...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4692.html?gal_id=336">
                                                         <span
                                                             style={{
@@ -3116,12 +3129,12 @@ function Main() {
                                                         >
                                                             19th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Friendship Cup 2022-2...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail28c1.html?gal_id=332">
                                                         <span
                                                             style={{
@@ -3133,12 +3146,12 @@ function Main() {
                                                         >
                                                             13th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter-House Sub Jr. Crick...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild92f.html?gal_id=334">
                                                         <span
                                                             style={{
@@ -3150,12 +3163,12 @@ function Main() {
                                                         >
                                                             13th of April 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter-House Sub Jr. Crick...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild81a.html?gal_id=326">
                                                         <span
                                                             style={{
@@ -3167,10 +3180,10 @@ function Main() {
                                                         >
                                                             16th of March 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Pi Day...</div>
+                                                        <div className={styles.tileBox}>Pi Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail87b3.html?gal_id=327">
                                                         <span
                                                             style={{
@@ -3182,10 +3195,10 @@ function Main() {
                                                         >
                                                             14th of March 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">International Pi Day...</div>
+                                                        <div className={styles.tileBox}>International Pi Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7492.html?gal_id=328">
                                                         <span
                                                             style={{
@@ -3197,10 +3210,10 @@ function Main() {
                                                         >
                                                             12th of March 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Jungle Safari ...</div>
+                                                        <div className={styles.tileBox}>Jungle Safari ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7194.html?gal_id=325">
                                                         <span
                                                             style={{
@@ -3212,12 +3225,12 @@ function Main() {
                                                         >
                                                             22nd of February 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play - Azadi Ka Amri...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc213.html?gal_id=324">
                                                         <span
                                                             style={{
@@ -3229,12 +3242,12 @@ function Main() {
                                                         >
                                                             19th of February 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play- Azadi ka Amrit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3c55.html?gal_id=321">
                                                         <span
                                                             style={{
@@ -3246,10 +3259,10 @@ function Main() {
                                                         >
                                                             11th of February 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Spellathon...</div>
+                                                        <div className={styles.tileBox}>Spellathon...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail73ff.html?gal_id=320">
                                                         <span
                                                             style={{
@@ -3261,12 +3274,12 @@ function Main() {
                                                         >
                                                             4th of February 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Basant Panchami Celebrati...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail305a.html?gal_id=322">
                                                         <span
                                                             style={{
@@ -3278,10 +3291,10 @@ function Main() {
                                                         >
                                                             4th of February 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Basant Panchami...</div>
+                                                        <div className={styles.tileBox}>Basant Panchami...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2f30.html?gal_id=314">
                                                         <span
                                                             style={{
@@ -3293,12 +3306,12 @@ function Main() {
                                                         >
                                                             22nd of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur Presented Grap...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5ef2.html?gal_id=315">
                                                         <span
                                                             style={{
@@ -3310,12 +3323,12 @@ function Main() {
                                                         >
                                                             22nd of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur Presented Grap...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailde93.html?gal_id=311">
                                                         <span
                                                             style={{
@@ -3327,10 +3340,10 @@ function Main() {
                                                         >
                                                             21st of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Virtual Open House...</div>
+                                                        <div className={styles.tileBox}>Virtual Open House...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail603f.html?gal_id=312">
                                                         <span
                                                             style={{
@@ -3342,10 +3355,10 @@ function Main() {
                                                         >
                                                             21st of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Brainvita Quiz...</div>
+                                                        <div className={styles.tileBox}>Brainvita Quiz...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1d63.html?gal_id=313">
                                                         <span
                                                             style={{
@@ -3357,12 +3370,12 @@ function Main() {
                                                         >
                                                             21st of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Brainvita Quiz - Grade II...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0ec5.html?gal_id=308">
                                                         <span
                                                             style={{
@@ -3374,12 +3387,12 @@ function Main() {
                                                         >
                                                             3rd of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Mind &amp; Body...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild9ec.html?gal_id=307">
                                                         <span
                                                             style={{
@@ -3391,10 +3404,10 @@ function Main() {
                                                         >
                                                             1st of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">Global Family Day...</div>
+                                                        <div className={styles.tileBox}>Global Family Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4a6d.html?gal_id=309">
                                                         <span
                                                             style={{
@@ -3406,10 +3419,10 @@ function Main() {
                                                         >
                                                             1st of January 2022{" "}
                                                         </span>
-                                                        <div className="tile-box">NEWSBUZZ - JAN TO MARCH...</div>
+                                                        <div className={styles.tileBox}>NEWSBUZZ - JAN TO MARCH...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail42e1.html?gal_id=305">
                                                         <span
                                                             style={{
@@ -3421,12 +3434,12 @@ function Main() {
                                                         >
                                                             24th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur - Frosty Fest ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2e1d.html?gal_id=302">
                                                         <span
                                                             style={{
@@ -3438,12 +3451,12 @@ function Main() {
                                                         >
                                                             24th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Shaurya P...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail972a.html?gal_id=303">
                                                         <span
                                                             style={{
@@ -3455,12 +3468,12 @@ function Main() {
                                                         >
                                                             24th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Result - Frosty Fest 2021...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4228.html?gal_id=304">
                                                         <span
                                                             style={{
@@ -3472,10 +3485,10 @@ function Main() {
                                                         >
                                                             24th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Frosty Fest 2021...</div>
+                                                        <div className={styles.tileBox}>Frosty Fest 2021...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail305f.html?gal_id=306">
                                                         <span
                                                             style={{
@@ -3487,12 +3500,12 @@ function Main() {
                                                         >
                                                             23rd of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Cyber Ethics &amp; Online Saf...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile94c.html?gal_id=299">
                                                         <span
                                                             style={{
@@ -3504,12 +3517,12 @@ function Main() {
                                                         >
                                                             18th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Proud moment for Delhi Pu...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail69e3.html?gal_id=296">
                                                         <span
                                                             style={{
@@ -3521,12 +3534,12 @@ function Main() {
                                                         >
                                                             11th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Special Session on Intern...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail40e7.html?gal_id=297">
                                                         <span
                                                             style={{
@@ -3538,12 +3551,12 @@ function Main() {
                                                         >
                                                             11th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Mountain Da...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4e7a.html?gal_id=298">
                                                         <span
                                                             style={{
@@ -3555,12 +3568,12 @@ function Main() {
                                                         >
                                                             11th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Mountain Da...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbdad.html?gal_id=300">
                                                         <span
                                                             style={{
@@ -3572,12 +3585,12 @@ function Main() {
                                                         >
                                                             11th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Mountain Da...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc828.html?gal_id=301">
                                                         <span
                                                             style={{
@@ -3589,12 +3602,12 @@ function Main() {
                                                         >
                                                             11th of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Mountain Da...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc8c8.html?gal_id=295">
                                                         <span
                                                             style={{
@@ -3606,12 +3619,12 @@ function Main() {
                                                         >
                                                             2nd of December 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Good Touch Bad Touch -Ses...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1dca.html?gal_id=294">
                                                         <span
                                                             style={{
@@ -3623,12 +3636,12 @@ function Main() {
                                                         >
                                                             29th of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations! Akshita ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2e81.html?gal_id=293">
                                                         <span
                                                             style={{
@@ -3640,12 +3653,12 @@ function Main() {
                                                         >
                                                             3rd of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations! Bhuvan G...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9406.html?gal_id=289">
                                                         <span
                                                             style={{
@@ -3657,10 +3670,10 @@ function Main() {
                                                         >
                                                             1st of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Shoe-DAAN ...</div>
+                                                        <div className={styles.tileBox}>Shoe-DAAN ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9933.html?gal_id=290">
                                                         <span
                                                             style={{
@@ -3672,12 +3685,12 @@ function Main() {
                                                         >
                                                             1st of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Service Before Self Shoe-...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1ced.html?gal_id=291">
                                                         <span
                                                             style={{
@@ -3689,10 +3702,10 @@ function Main() {
                                                         >
                                                             1st of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Learning by doing...</div>
+                                                        <div className={styles.tileBox}>Learning by doing...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3d7f.html?gal_id=292">
                                                         <span
                                                             style={{
@@ -3704,12 +3717,12 @@ function Main() {
                                                         >
                                                             1st of November 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Learning by doing- Math A...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4b3d.html?gal_id=288">
                                                         <span
                                                             style={{
@@ -3721,12 +3734,12 @@ function Main() {
                                                         >
                                                             21st of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             National Inter School Deb...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail59c9.html?gal_id=282">
                                                         <span
                                                             style={{
@@ -3738,10 +3751,10 @@ function Main() {
                                                         >
                                                             15th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Happy Dussehra...</div>
+                                                        <div className={styles.tileBox}>Happy Dussehra...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail62e9.html?gal_id=280">
                                                         <span
                                                             style={{
@@ -3753,12 +3766,12 @@ function Main() {
                                                         >
                                                             12th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Little Scientists Activit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5ab8.html?gal_id=283">
                                                         <span
                                                             style={{
@@ -3770,10 +3783,10 @@ function Main() {
                                                         >
                                                             9th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Rashtriya Poshan Maah...</div>
+                                                        <div className={styles.tileBox}>Rashtriya Poshan Maah...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail84f3.html?gal_id=284">
                                                         <span
                                                             style={{
@@ -3785,10 +3798,10 @@ function Main() {
                                                         >
                                                             9th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box"> POSHAN...</div>
+                                                        <div className={styles.tileBox}> POSHAN...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail044e.html?gal_id=285">
                                                         <span
                                                             style={{
@@ -3800,10 +3813,10 @@ function Main() {
                                                         >
                                                             9th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Open-House Session...</div>
+                                                        <div className={styles.tileBox}>Open-House Session...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1b3d.html?gal_id=286">
                                                         <span
                                                             style={{
@@ -3815,12 +3828,12 @@ function Main() {
                                                         >
                                                             9th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Open-House Session Pre-Pr...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7c6b.html?gal_id=278">
                                                         <span
                                                             style={{
@@ -3832,10 +3845,10 @@ function Main() {
                                                         >
                                                             5th of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Welcome Aboard.......</div>
+                                                        <div className={styles.tileBox}>Welcome Aboard.......</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail03fb.html?gal_id=277">
                                                         <span
                                                             style={{
@@ -3847,12 +3860,12 @@ function Main() {
                                                         >
                                                             2nd of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Happy Gandhi Jayanti 2021...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila207.html?gal_id=279">
                                                         <span
                                                             style={{
@@ -3864,12 +3877,12 @@ function Main() {
                                                         >
                                                             1st of October 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             TechArt Interplay Activit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc804.html?gal_id=287">
                                                         <span
                                                             style={{
@@ -3881,12 +3894,12 @@ function Main() {
                                                         >
                                                             29th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             A Session for the Educato...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4239.html?gal_id=273">
                                                         <span
                                                             style={{
@@ -3898,10 +3911,10 @@ function Main() {
                                                         >
                                                             27th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Phases of the Moon...</div>
+                                                        <div className={styles.tileBox}>Phases of the Moon...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6d18.html?gal_id=274">
                                                         <span
                                                             style={{
@@ -3913,12 +3926,12 @@ function Main() {
                                                         >
                                                             27th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Phases of the Moon - Grad...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail331c.html?gal_id=276">
                                                         <span
                                                             style={{
@@ -3930,10 +3943,10 @@ function Main() {
                                                         >
                                                             24th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Little Scientists...</div>
+                                                        <div className={styles.tileBox}>Little Scientists...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6403.html?gal_id=269">
                                                         <span
                                                             style={{
@@ -3945,12 +3958,12 @@ function Main() {
                                                         >
                                                             18th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The students of Junior sc...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail68ca.html?gal_id=267">
                                                         <span
                                                             style={{
@@ -3962,12 +3975,12 @@ function Main() {
                                                         >
                                                             17th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The integration of Art in...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailaf05.html?gal_id=268">
                                                         <span
                                                             style={{
@@ -3979,12 +3992,12 @@ function Main() {
                                                         >
                                                             17th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Art integration in Mathem...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaileb50.html?gal_id=271">
                                                         <span
                                                             style={{
@@ -3996,10 +4009,10 @@ function Main() {
                                                         >
                                                             15th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Decoding Divaswapna...</div>
+                                                        <div className={styles.tileBox}>Decoding Divaswapna...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail04c2.html?gal_id=272">
                                                         <span
                                                             style={{
@@ -4011,12 +4024,12 @@ function Main() {
                                                         >
                                                             15th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             An insightful session on ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail629b.html?gal_id=270">
                                                         <span
                                                             style={{
@@ -4028,12 +4041,12 @@ function Main() {
                                                         >
                                                             14th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hindi Day on September 14...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild2aa.html?gal_id=265">
                                                         <span
                                                             style={{
@@ -4045,12 +4058,12 @@ function Main() {
                                                         >
                                                             13th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             National Level Group Comp...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7809.html?gal_id=261">
                                                         <span
                                                             style={{
@@ -4062,12 +4075,12 @@ function Main() {
                                                         >
                                                             10th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Lessons and Values learnt...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailca87.html?gal_id=262">
                                                         <span
                                                             style={{
@@ -4079,12 +4092,12 @@ function Main() {
                                                         >
                                                             10th of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Lessons and Values learnt...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailfe70.html?gal_id=264">
                                                         <span
                                                             style={{
@@ -4096,12 +4109,12 @@ function Main() {
                                                         >
                                                             3rd of September 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The students of classes I...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail451b.html?gal_id=256">
                                                         <span
                                                             style={{
@@ -4113,12 +4126,12 @@ function Main() {
                                                         >
                                                             30th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shri Krishna is not confi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail12c6.html?gal_id=259">
                                                         <span
                                                             style={{
@@ -4130,10 +4143,10 @@ function Main() {
                                                         >
                                                             30th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Janmashtami Celebration...</div>
+                                                        <div className={styles.tileBox}>Janmashtami Celebration...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail315f.html?gal_id=255">
                                                         <span
                                                             style={{
@@ -4145,12 +4158,12 @@ function Main() {
                                                         >
                                                             26th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             A self composed poem by I...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail86e8.html?gal_id=257">
                                                         <span
                                                             style={{
@@ -4162,12 +4175,12 @@ function Main() {
                                                         >
                                                             24th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House English Debat...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4bfa.html?gal_id=258">
                                                         <span
                                                             style={{
@@ -4179,12 +4192,12 @@ function Main() {
                                                         >
                                                             24th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House English Debat...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8740.html?gal_id=250">
                                                         <span
                                                             style={{
@@ -4196,12 +4209,12 @@ function Main() {
                                                         >
                                                             19th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             MEGApixel- A photography ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6cac.html?gal_id=234">
                                                         <span
                                                             style={{
@@ -4213,12 +4226,12 @@ function Main() {
                                                         >
                                                             15th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Happy 75th Independence D...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile2b3.html?gal_id=248">
                                                         <span
                                                             style={{
@@ -4230,12 +4243,12 @@ function Main() {
                                                         >
                                                             15th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             75th Independence Day Cel...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail91fc.html?gal_id=235">
                                                         <span
                                                             style={{
@@ -4247,10 +4260,10 @@ function Main() {
                                                         >
                                                             13th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">World Elephant Day...</div>
+                                                        <div className={styles.tileBox}>World Elephant Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5b3d.html?gal_id=236">
                                                         <span
                                                             style={{
@@ -4262,10 +4275,10 @@ function Main() {
                                                         >
                                                             12th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">International Youth Day...</div>
+                                                        <div className={styles.tileBox}>International Youth Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail291f.html?gal_id=247">
                                                         <span
                                                             style={{
@@ -4277,12 +4290,12 @@ function Main() {
                                                         >
                                                             9th of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play Activity Grade ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8e95.html?gal_id=233">
                                                         <span
                                                             style={{
@@ -4294,10 +4307,10 @@ function Main() {
                                                         >
                                                             3rd of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">The Girls’ Brigade lead...</div>
+                                                        <div className={styles.tileBox}>The Girls’ Brigade lead...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8458.html?gal_id=232">
                                                         <span
                                                             style={{
@@ -4309,12 +4322,12 @@ function Main() {
                                                         >
                                                             2nd of August 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations! Grade XI...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaildeac.html?gal_id=226">
                                                         <span
                                                             style={{
@@ -4326,12 +4339,12 @@ function Main() {
                                                         >
                                                             29th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Tiger Day. ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6fc7.html?gal_id=229">
                                                         <span
                                                             style={{
@@ -4343,12 +4356,12 @@ function Main() {
                                                         >
                                                             29th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur Joins the Nati...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail91e2.html?gal_id=230">
                                                         <span
                                                             style={{
@@ -4360,12 +4373,12 @@ function Main() {
                                                         >
                                                             29th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur - Joins the Na...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc4a3.html?gal_id=224">
                                                         <span
                                                             style={{
@@ -4377,12 +4390,12 @@ function Main() {
                                                         >
                                                             24th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Guru Purnima - Plantation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf8c3.html?gal_id=225">
                                                         <span
                                                             style={{
@@ -4394,12 +4407,12 @@ function Main() {
                                                         >
                                                             24th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Guru Purnima- Plantation ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail732b.html?gal_id=220">
                                                         <span
                                                             style={{
@@ -4411,12 +4424,12 @@ function Main() {
                                                         >
                                                             17th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shorya- Hindi Recitation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile280.html?gal_id=223">
                                                         <span
                                                             style={{
@@ -4428,12 +4441,12 @@ function Main() {
                                                         >
                                                             17th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shorya - Hindi Recitation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2355.html?gal_id=221">
                                                         <span
                                                             style={{
@@ -4445,12 +4458,12 @@ function Main() {
                                                         >
                                                             16th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             An online Introductory me...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail27bc.html?gal_id=222">
                                                         <span
                                                             style={{
@@ -4462,13 +4475,13 @@ function Main() {
                                                         >
                                                             16th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             DPS Jaipur Photography C...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1165.html?gal_id=216">
                                                         <span
                                                             style={{
@@ -4480,12 +4493,12 @@ function Main() {
                                                         >
                                                             14th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Folktales- A Treasure Tro...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0631.html?gal_id=218">
                                                         <span
                                                             style={{
@@ -4497,12 +4510,12 @@ function Main() {
                                                         >
                                                             14th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Folktales - A Treasure Tr...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2c33.html?gal_id=214">
                                                         <span
                                                             style={{
@@ -4514,12 +4527,12 @@ function Main() {
                                                         >
                                                             9th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Pajama Party for classes ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9caa.html?gal_id=219">
                                                         <span
                                                             style={{
@@ -4531,10 +4544,10 @@ function Main() {
                                                         >
                                                             9th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Pyjama Party...</div>
+                                                        <div className={styles.tileBox}>Pyjama Party...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4c6a.html?gal_id=211">
                                                         <span
                                                             style={{
@@ -4546,12 +4559,12 @@ function Main() {
                                                         >
                                                             5th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mathopolis: Inter-house M...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail16b7.html?gal_id=212">
                                                         <span
                                                             style={{
@@ -4563,12 +4576,12 @@ function Main() {
                                                         >
                                                             5th of July 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mathopolis - Inter House ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0a08.html?gal_id=207">
                                                         <span
                                                             style={{
@@ -4580,12 +4593,12 @@ function Main() {
                                                         >
                                                             21st of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             7th International Yoga Da...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1561.html?gal_id=208">
                                                         <span
                                                             style={{
@@ -4597,12 +4610,12 @@ function Main() {
                                                         >
                                                             21st of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Delhi Public School, Jaip...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7e3e.html?gal_id=206">
                                                         <span
                                                             style={{
@@ -4614,12 +4627,12 @@ function Main() {
                                                         >
                                                             18th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Cool Chefs of the Junior ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile453.html?gal_id=202">
                                                         <span
                                                             style={{
@@ -4631,12 +4644,12 @@ function Main() {
                                                         >
                                                             14th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Another glorious moment f...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail07d6.html?gal_id=203">
                                                         <span
                                                             style={{
@@ -4648,12 +4661,12 @@ function Main() {
                                                         >
                                                             14th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS, Jaipur hosted its fi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6480.html?gal_id=205">
                                                         <span
                                                             style={{
@@ -4665,12 +4678,12 @@ function Main() {
                                                         >
                                                             12th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             MUN Club organized two pr...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9239.html?gal_id=201">
                                                         <span
                                                             style={{
@@ -4682,12 +4695,12 @@ function Main() {
                                                         >
                                                             9th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Jannat Sakshi Grade XII g...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7394.html?gal_id=200">
                                                         <span
                                                             style={{
@@ -4699,12 +4712,12 @@ function Main() {
                                                         >
                                                             5th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             World Environment Day 202...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb44e.html?gal_id=210">
                                                         <span
                                                             style={{
@@ -4716,12 +4729,12 @@ function Main() {
                                                         >
                                                             4th of June 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Javin won the Consolation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail20b5.html?gal_id=199">
                                                         <span
                                                             style={{
@@ -4733,12 +4746,12 @@ function Main() {
                                                         >
                                                             31st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             School Magazine : Pratibi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9f98.html?gal_id=198">
                                                         <span
                                                             style={{
@@ -4750,12 +4763,12 @@ function Main() {
                                                         >
                                                             30th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             First position in Online ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2dc8.html?gal_id=196">
                                                         <span
                                                             style={{
@@ -4767,12 +4780,12 @@ function Main() {
                                                         >
                                                             21st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Science Experiments pave ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail86e4.html?gal_id=197">
                                                         <span
                                                             style={{
@@ -4784,12 +4797,12 @@ function Main() {
                                                         >
                                                             21st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Science Experiments pave ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailfd44.html?gal_id=192">
                                                         <span
                                                             style={{
@@ -4801,12 +4814,12 @@ function Main() {
                                                         >
                                                             18th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Tour of Museums ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail430b.html?gal_id=194">
                                                         <span
                                                             style={{
@@ -4818,12 +4831,12 @@ function Main() {
                                                         >
                                                             18th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Tour of Some Muse...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8d50.html?gal_id=195">
                                                         <span
                                                             style={{
@@ -4835,12 +4848,12 @@ function Main() {
                                                         >
                                                             18th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             HUBS OF LEARNING Session ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail25dd.html?gal_id=190">
                                                         <span
                                                             style={{
@@ -4852,12 +4865,12 @@ function Main() {
                                                         >
                                                             15th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Storytelling session usin...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4186.html?gal_id=191">
                                                         <span
                                                             style={{
@@ -4869,12 +4882,12 @@ function Main() {
                                                         >
                                                             15th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Storytelling Session usin...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf959.html?gal_id=189">
                                                         <span
                                                             style={{
@@ -4886,12 +4899,12 @@ function Main() {
                                                         >
                                                             12th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             CREATIVE WRITING SESSION...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila3f8.html?gal_id=186">
                                                         <span
                                                             style={{
@@ -4903,12 +4916,12 @@ function Main() {
                                                         >
                                                             9th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS, Jaipur salute all th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail49d1.html?gal_id=187">
                                                         <span
                                                             style={{
@@ -4920,10 +4933,10 @@ function Main() {
                                                         >
                                                             8th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Mother’s Day Celebratio...</div>
+                                                        <div className={styles.tileBox}>Mother’s Day Celebratio...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7ce0.html?gal_id=188">
                                                         <span
                                                             style={{
@@ -4935,12 +4948,12 @@ function Main() {
                                                         >
                                                             8th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             An Interactive Session on...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailfeb4.html?gal_id=181">
                                                         <span
                                                             style={{
@@ -4952,12 +4965,12 @@ function Main() {
                                                         >
                                                             7th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             An Interactive Session on...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail485f.html?gal_id=193">
                                                         <span
                                                             style={{
@@ -4969,12 +4982,12 @@ function Main() {
                                                         >
                                                             4th of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Visit to Greengro...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0d22.html?gal_id=175">
                                                         <span
                                                             style={{
@@ -4986,12 +4999,12 @@ function Main() {
                                                         >
                                                             1st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Delightful Veggies: A Ses...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb68a.html?gal_id=176">
                                                         <span
                                                             style={{
@@ -5003,12 +5016,12 @@ function Main() {
                                                         >
                                                             1st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Live on Facebook A Sessi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail71c1.html?gal_id=177">
                                                         <span
                                                             style={{
@@ -5020,12 +5033,12 @@ function Main() {
                                                         >
                                                             1st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Bhavik Bhargava of grade ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf1d8.html?gal_id=182">
                                                         <span
                                                             style={{
@@ -5037,12 +5050,12 @@ function Main() {
                                                         >
                                                             1st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             A Virtual Talk Show for P...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailee5e.html?gal_id=183">
                                                         <span
                                                             style={{
@@ -5054,12 +5067,12 @@ function Main() {
                                                         >
                                                             1st of May 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             A Virtual Talk Show for P...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail75e4.html?gal_id=184">
                                                         <span
                                                             style={{
@@ -5071,12 +5084,12 @@ function Main() {
                                                         >
                                                             24th of April 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Talk Show with th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailaa75.html?gal_id=185">
                                                         <span
                                                             style={{
@@ -5088,12 +5101,12 @@ function Main() {
                                                         >
                                                             24th of April 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Virtual Talk Show wit...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3056.html?gal_id=174">
                                                         <span
                                                             style={{
@@ -5105,12 +5118,12 @@ function Main() {
                                                         >
                                                             25th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Ruins Poem by Mansi Mahla...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3177.html?gal_id=172">
                                                         <span
                                                             style={{
@@ -5122,12 +5135,12 @@ function Main() {
                                                         >
                                                             16th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Basant Panchami Celebrati...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8a55.html?gal_id=170">
                                                         <span
                                                             style={{
@@ -5139,12 +5152,12 @@ function Main() {
                                                         >
                                                             13th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Session on Digital Eye St...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb3a2.html?gal_id=323">
                                                         <span
                                                             style={{
@@ -5156,10 +5169,10 @@ function Main() {
                                                         >
                                                             11th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Spellathon Grade III...</div>
+                                                        <div className={styles.tileBox}>Spellathon Grade III...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1eb5.html?gal_id=171">
                                                         <span
                                                             style={{
@@ -5171,12 +5184,12 @@ function Main() {
                                                         >
                                                             10th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             TIPS TO PREPARE FOR THE B...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail713f.html?gal_id=173">
                                                         <span
                                                             style={{
@@ -5188,12 +5201,12 @@ function Main() {
                                                         >
                                                             9th of February 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             SESSION ON FACING BOARD E...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail68b7.html?gal_id=169">
                                                         <span
                                                             style={{
@@ -5205,12 +5218,12 @@ function Main() {
                                                         >
                                                             29th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Holocaust Remembr...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb50a.html?gal_id=162">
                                                         <span
                                                             style={{
@@ -5222,12 +5235,12 @@ function Main() {
                                                         >
                                                             26th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             72nd Republic Day celebra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail14e0.html?gal_id=167">
                                                         <span
                                                             style={{
@@ -5239,12 +5252,12 @@ function Main() {
                                                         >
                                                             26th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Republic Day Celebration...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6399.html?gal_id=163">
                                                         <span
                                                             style={{
@@ -5256,10 +5269,10 @@ function Main() {
                                                         >
                                                             25th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Let’s salute the nation...</div>
+                                                        <div className={styles.tileBox}>Let’s salute the nation...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail56c0.html?gal_id=164">
                                                         <span
                                                             style={{
@@ -5271,12 +5284,12 @@ function Main() {
                                                         >
                                                             25th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Fireless cooking on the e...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb525.html?gal_id=165">
                                                         <span
                                                             style={{
@@ -5288,12 +5301,12 @@ function Main() {
                                                         >
                                                             25th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Fireless cooking on the e...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5e1e.html?gal_id=166">
                                                         <span
                                                             style={{
@@ -5305,12 +5318,12 @@ function Main() {
                                                         >
                                                             25th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Republic Day Special Asse...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc8c3.html?gal_id=161">
                                                         <span
                                                             style={{
@@ -5322,10 +5335,10 @@ function Main() {
                                                         >
                                                             24th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">Special Prize Trophy ...</div>
+                                                        <div className={styles.tileBox}>Special Prize Trophy ...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailca11.html?gal_id=159">
                                                         <span
                                                             style={{
@@ -5337,12 +5350,12 @@ function Main() {
                                                         >
                                                             23rd of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             IGNITE-The Science Fest 2...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailab74.html?gal_id=160">
                                                         <span
                                                             style={{
@@ -5354,12 +5367,12 @@ function Main() {
                                                         >
                                                             22nd of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             International Dimension i...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6bb1.html?gal_id=155">
                                                         <span
                                                             style={{
@@ -5371,10 +5384,10 @@ function Main() {
                                                         >
                                                             20th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">The Queen’s Commonwealt...</div>
+                                                        <div className={styles.tileBox}>The Queen’s Commonwealt...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild3ad.html?gal_id=158">
                                                         <span
                                                             style={{
@@ -5386,12 +5399,12 @@ function Main() {
                                                         >
                                                             20th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations to all th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb874.html?gal_id=156">
                                                         <span
                                                             style={{
@@ -5403,12 +5416,12 @@ function Main() {
                                                         >
                                                             15th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             English Story Narration A...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail16d7.html?gal_id=157">
                                                         <span
                                                             style={{
@@ -5420,12 +5433,12 @@ function Main() {
                                                         >
                                                             15th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             English Story Narration A...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail411f.html?gal_id=153">
                                                         <span
                                                             style={{
@@ -5437,12 +5450,12 @@ function Main() {
                                                         >
                                                             10th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Grade XII Online Citation...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc02c.html?gal_id=154">
                                                         <span
                                                             style={{
@@ -5454,12 +5467,12 @@ function Main() {
                                                         >
                                                             9th of January 2021{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             INFORMATION SESSION BY BM...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8e72.html?gal_id=150">
                                                         <span
                                                             style={{
@@ -5471,12 +5484,12 @@ function Main() {
                                                         >
                                                             28th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Grade X Orientation Sessi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail25fe.html?gal_id=151">
                                                         <span
                                                             style={{
@@ -5488,12 +5501,12 @@ function Main() {
                                                         >
                                                             28th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Grade X Online Orientatio...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc8ac.html?gal_id=138">
                                                         <span
                                                             style={{
@@ -5505,12 +5518,12 @@ function Main() {
                                                         >
                                                             25th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Christmas Celebration Gra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail827c.html?gal_id=139">
                                                         <span
                                                             style={{
@@ -5522,13 +5535,13 @@ function Main() {
                                                         >
                                                             25th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             Valedictory Function of ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailce5d.html?gal_id=143">
                                                         <span
                                                             style={{
@@ -5540,12 +5553,12 @@ function Main() {
                                                         >
                                                             23rd of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Christmas art and craft a...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailb14c.html?gal_id=147">
                                                         <span
                                                             style={{
@@ -5557,12 +5570,12 @@ function Main() {
                                                         >
                                                             23rd of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Christmas Celebration Gra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail594d.html?gal_id=140">
                                                         <span
                                                             style={{
@@ -5574,12 +5587,12 @@ function Main() {
                                                         >
                                                             19th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Safe Touch - Unsafe Touch...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailaade.html?gal_id=148">
                                                         <span
                                                             style={{
@@ -5591,12 +5604,12 @@ function Main() {
                                                         >
                                                             19th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hindi Story Telling Compe...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailad93.html?gal_id=149">
                                                         <span
                                                             style={{
@@ -5608,12 +5621,12 @@ function Main() {
                                                         >
                                                             19th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Grade V Hindi Story Telli...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile00e.html?gal_id=136">
                                                         <span
                                                             style={{
@@ -5625,12 +5638,12 @@ function Main() {
                                                         >
                                                             16th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             SESSION BY PLAKSHA UNIVER...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail13b8.html?gal_id=142">
                                                         <span
                                                             style={{
@@ -5642,10 +5655,10 @@ function Main() {
                                                         >
                                                             16th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Session on ‘Good Touch/...</div>
+                                                        <div className={styles.tileBox}>Session on ‘Good Touch/...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6757.html?gal_id=137">
                                                         <span
                                                             style={{
@@ -5657,12 +5670,12 @@ function Main() {
                                                         >
                                                             15th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Orientation Session for t...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail787c.html?gal_id=145">
                                                         <span
                                                             style={{
@@ -5674,12 +5687,12 @@ function Main() {
                                                         >
                                                             14th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Orientation Session for t...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile2cf.html?gal_id=134">
                                                         <span
                                                             style={{
@@ -5691,12 +5704,12 @@ function Main() {
                                                         >
                                                             12th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             INFORMATION SESSION BY NI...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7aa3.html?gal_id=132">
                                                         <span
                                                             style={{
@@ -5708,10 +5721,10 @@ function Main() {
                                                         >
                                                             10th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Math Quiz Grade V...</div>
+                                                        <div className={styles.tileBox}>Math Quiz Grade V...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail49a8.html?gal_id=133">
                                                         <span
                                                             style={{
@@ -5723,12 +5736,12 @@ function Main() {
                                                         >
                                                             10th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Math Quiz Grade V...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail971d.html?gal_id=131">
                                                         <span
                                                             style={{
@@ -5740,12 +5753,12 @@ function Main() {
                                                         >
                                                             9th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Aryaman Panda 5B secured ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail81b2.html?gal_id=127">
                                                         <span
                                                             style={{
@@ -5757,12 +5770,12 @@ function Main() {
                                                         >
                                                             8th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Information Session by O....
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf469.html?gal_id=130">
                                                         <span
                                                             style={{
@@ -5774,12 +5787,12 @@ function Main() {
                                                         >
                                                             7th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Tanmay Ba...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf296.html?gal_id=129">
                                                         <span
                                                             style={{
@@ -5791,12 +5804,12 @@ function Main() {
                                                         >
                                                             6th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Sumit Sin...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild60f.html?gal_id=141">
                                                         <span
                                                             style={{
@@ -5808,12 +5821,12 @@ function Main() {
                                                         >
                                                             4th of December 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Table Manners Session Gra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaila0ac.html?gal_id=125">
                                                         <span
                                                             style={{
@@ -5825,13 +5838,13 @@ function Main() {
                                                         >
                                                             29th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             Intra MUN 2020 - Closing...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6f00.html?gal_id=144">
                                                         <span
                                                             style={{
@@ -5843,12 +5856,12 @@ function Main() {
                                                         >
                                                             29th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Table Etiquettes Sessions...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail1af3.html?gal_id=146">
                                                         <span
                                                             style={{
@@ -5860,10 +5873,10 @@ function Main() {
                                                         >
                                                             29th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Intra MUN 2020...</div>
+                                                        <div className={styles.tileBox}>Intra MUN 2020...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailad77.html?gal_id=124">
                                                         <span
                                                             style={{
@@ -5875,10 +5888,10 @@ function Main() {
                                                         >
                                                             28th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box"> Intra MUN 2020...</div>
+                                                        <div className={styles.tileBox}> Intra MUN 2020...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailfe2f.html?gal_id=123">
                                                         <span
                                                             style={{
@@ -5890,13 +5903,13 @@ function Main() {
                                                         >
                                                             27th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             Table Etiquettes Session...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail17b7.html?gal_id=121">
                                                         <span
                                                             style={{
@@ -5908,12 +5921,12 @@ function Main() {
                                                         >
                                                             26th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur is Ranked No.2...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailba46.html?gal_id=122">
                                                         <span
                                                             style={{
@@ -5925,12 +5938,12 @@ function Main() {
                                                         >
                                                             26th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Proud Winner of The Diwal...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile79f.html?gal_id=115">
                                                         <span
                                                             style={{
@@ -5942,12 +5955,12 @@ function Main() {
                                                         >
                                                             5th of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Webinar - Hubs of Learnin...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail69cf.html?gal_id=113">
                                                         <span
                                                             style={{
@@ -5959,12 +5972,12 @@ function Main() {
                                                         >
                                                             3rd of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Webinar on Adapting to th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild260.html?gal_id=114">
                                                         <span
                                                             style={{
@@ -5976,12 +5989,12 @@ function Main() {
                                                         >
                                                             1st of November 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Second position in an onl...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3a1d.html?gal_id=112">
                                                         <span
                                                             style={{
@@ -5993,12 +6006,12 @@ function Main() {
                                                         >
                                                             31st of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Karunanja...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail76e7.html?gal_id=111">
                                                         <span
                                                             style={{
@@ -6010,12 +6023,12 @@ function Main() {
                                                         >
                                                             29th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Circle Time Activity - Th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailef82.html?gal_id=109">
                                                         <span
                                                             style={{
@@ -6027,12 +6040,12 @@ function Main() {
                                                         >
                                                             28th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Build Good Habits, Break ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0cd9.html?gal_id=110">
                                                         <span
                                                             style={{
@@ -6044,12 +6057,12 @@ function Main() {
                                                         >
                                                             28th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Bhavik Bhargava bagged th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7325.html?gal_id=108">
                                                         <span
                                                             style={{
@@ -6061,12 +6074,12 @@ function Main() {
                                                         >
                                                             25th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Circle Time Activity - Th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail90cf.html?gal_id=106">
                                                         <span
                                                             style={{
@@ -6078,12 +6091,12 @@ function Main() {
                                                         >
                                                             21st of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations to the Tw...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbff4.html?gal_id=105">
                                                         <span
                                                             style={{
@@ -6095,12 +6108,12 @@ function Main() {
                                                         >
                                                             17th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations for quali...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4c4a.html?gal_id=99">
                                                         <span
                                                             style={{
@@ -6112,12 +6125,12 @@ function Main() {
                                                         >
                                                             11th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur won third priz...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf2d1.html?gal_id=100">
                                                         <span
                                                             style={{
@@ -6129,12 +6142,12 @@ function Main() {
                                                         >
                                                             11th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur won First priz...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0b73.html?gal_id=96">
                                                         <span
                                                             style={{
@@ -6146,12 +6159,12 @@ function Main() {
                                                         >
                                                             8th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations to all th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail013d.html?gal_id=95">
                                                         <span
                                                             style={{
@@ -6163,12 +6176,12 @@ function Main() {
                                                         >
                                                             6th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             7 DPS Jaipur Students Qua...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailc6a1.html?gal_id=91">
                                                         <span
                                                             style={{
@@ -6180,13 +6193,13 @@ function Main() {
                                                         >
                                                             5th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             Role Play Competition Gr...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail59a6.html?gal_id=94">
                                                         <span
                                                             style={{
@@ -6198,12 +6211,12 @@ function Main() {
                                                         >
                                                             5th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play Competition Gra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail44ba.html?gal_id=90">
                                                         <span
                                                             style={{
@@ -6215,12 +6228,12 @@ function Main() {
                                                         >
                                                             4th of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations to the Ac...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5ec8.html?gal_id=84">
                                                         <span
                                                             style={{
@@ -6232,12 +6245,12 @@ function Main() {
                                                         >
                                                             2nd of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hearty congratulations Un...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9865.html?gal_id=85">
                                                         <span
                                                             style={{
@@ -6249,12 +6262,12 @@ function Main() {
                                                         >
                                                             2nd of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Career counselling sessio...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7b9d.html?gal_id=86">
                                                         <span
                                                             style={{
@@ -6266,12 +6279,12 @@ function Main() {
                                                         >
                                                             2nd of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Virtual Quiz ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9df7.html?gal_id=88">
                                                         <span
                                                             style={{
@@ -6283,12 +6296,12 @@ function Main() {
                                                         >
                                                             2nd of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             A Virtual Circle Time - R...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail17e3.html?gal_id=93">
                                                         <span
                                                             style={{
@@ -6300,12 +6313,12 @@ function Main() {
                                                         >
                                                             1st of October 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Circle Time - Remembering...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile68b.html?gal_id=83">
                                                         <span
                                                             style={{
@@ -6317,12 +6330,12 @@ function Main() {
                                                         >
                                                             29th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Virtual Engli...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail6a27.html?gal_id=78">
                                                         <span
                                                             style={{
@@ -6334,12 +6347,12 @@ function Main() {
                                                         >
                                                             27th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Water Wise - Water Saving...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail42ac.html?gal_id=80">
                                                         <span
                                                             style={{
@@ -6351,12 +6364,12 @@ function Main() {
                                                         >
                                                             27th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Water Saving Week Grades ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4b9b.html?gal_id=74">
                                                         <span
                                                             style={{
@@ -6368,12 +6381,12 @@ function Main() {
                                                         >
                                                             26th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play Competition Gra...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile3cf.html?gal_id=75">
                                                         <span
                                                             style={{
@@ -6385,12 +6398,12 @@ function Main() {
                                                         >
                                                             26th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Role Play Competi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailf602.html?gal_id=76">
                                                         <span
                                                             style={{
@@ -6402,12 +6415,12 @@ function Main() {
                                                         >
                                                             26th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mental Wellness Workshop...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailcfc2.html?gal_id=82">
                                                         <span
                                                             style={{
@@ -6419,12 +6432,12 @@ function Main() {
                                                         >
                                                             25th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Career counselling sessio...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3f54.html?gal_id=73">
                                                         <span
                                                             style={{
@@ -6436,12 +6449,12 @@ function Main() {
                                                         >
                                                             20th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Virtual Investiture C...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3b32.html?gal_id=70">
                                                         <span
                                                             style={{
@@ -6453,12 +6466,12 @@ function Main() {
                                                         >
                                                             18th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Grade V Role Play Competi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5448.html?gal_id=68">
                                                         <span
                                                             style={{
@@ -6470,12 +6483,12 @@ function Main() {
                                                         >
                                                             15th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hearty congratulations Ak...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0787.html?gal_id=65">
                                                         <span
                                                             style={{
@@ -6487,12 +6500,12 @@ function Main() {
                                                         >
                                                             14th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations Shanvi Sa...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail8e56.html?gal_id=66">
                                                         <span
                                                             style={{
@@ -6504,12 +6517,12 @@ function Main() {
                                                         >
                                                             12th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations! Mahek Ro...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailbf4e.html?gal_id=67">
                                                         <span
                                                             style={{
@@ -6521,12 +6534,12 @@ function Main() {
                                                         >
                                                             12th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Congratulations! Raghav A...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5557.html?gal_id=62">
                                                         <span
                                                             style={{
@@ -6538,12 +6551,12 @@ function Main() {
                                                         >
                                                             4th of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Result Taal - Tarang 2020...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7add.html?gal_id=59">
                                                         <span
                                                             style={{
@@ -6555,12 +6568,12 @@ function Main() {
                                                         >
                                                             2nd of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hearty Congratulations Bh...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail99df.html?gal_id=60">
                                                         <span
                                                             style={{
@@ -6572,12 +6585,12 @@ function Main() {
                                                         >
                                                             2nd of September 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             AISSE 2019-20 Toppers awa...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail756c.html?gal_id=72">
                                                         <span
                                                             style={{
@@ -6589,12 +6602,12 @@ function Main() {
                                                         >
                                                             30th of August 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Doha Recitation Competiti...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail5067.html?gal_id=71">
                                                         <span
                                                             style={{
@@ -6606,12 +6619,12 @@ function Main() {
                                                         >
                                                             29th of August 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Doha Recitation Competiti...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9e9b.html?gal_id=79">
                                                         <span
                                                             style={{
@@ -6623,12 +6636,12 @@ function Main() {
                                                         >
                                                             28th of August 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Hindi Poem Recitation Com...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail11a0.html?gal_id=81">
                                                         <span
                                                             style={{
@@ -6640,12 +6653,12 @@ function Main() {
                                                         >
                                                             15th of August 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Independence Day Celebrat...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail0c53.html?gal_id=39">
                                                         <span
                                                             style={{
@@ -6657,12 +6670,12 @@ function Main() {
                                                         >
                                                             31st of July 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Report healthy eating act...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7494.html?gal_id=53">
                                                         <span
                                                             style={{
@@ -6674,12 +6687,12 @@ function Main() {
                                                         >
                                                             25th of July 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Virtual Poem Recitation C...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail10dc.html?gal_id=22">
                                                         <span
                                                             style={{
@@ -6691,12 +6704,12 @@ function Main() {
                                                         >
                                                             14th of July 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             DPS Jaipur The Success Sa...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail7654.html?gal_id=3">
                                                         <span
                                                             style={{
@@ -6708,12 +6721,12 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Life at D.P.S BHK, Jaipur...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail057e.html?gal_id=5">
                                                         <span
                                                             style={{
@@ -6725,10 +6738,10 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Hostel Life...</div>
+                                                        <div className={styles.tileBox}>Hostel Life...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail9163.html?gal_id=7">
                                                         <span
                                                             style={{
@@ -6740,10 +6753,10 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Art Exhibition...</div>
+                                                        <div className={styles.tileBox}>Art Exhibition...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail433e.html?gal_id=8">
                                                         <span
                                                             style={{
@@ -6755,12 +6768,12 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Mohan to Mahatma - Gandhi...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail16c0.html?gal_id=9">
                                                         <span
                                                             style={{
@@ -6772,12 +6785,12 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Class III: Trailblazers: ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail793b.html?gal_id=10">
                                                         <span
                                                             style={{
@@ -6789,13 +6802,13 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             Christmas Euphoria: Spre...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail4732.html?gal_id=11">
                                                         <span
                                                             style={{
@@ -6807,12 +6820,12 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Blood Donation Camp 2019...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail48e7.html?gal_id=12">
                                                         <span
                                                             style={{
@@ -6824,10 +6837,10 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Robotics...</div>
+                                                        <div className={styles.tileBox}>Robotics...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailaaa1.html?gal_id=15">
                                                         <span
                                                             style={{
@@ -6839,13 +6852,13 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             {" "}
                                                             The Citation Ceremony 20...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail90bf.html?gal_id=16">
                                                         <span
                                                             style={{
@@ -6857,10 +6870,10 @@ function Main() {
                                                         >
                                                             17th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Republic Day...</div>
+                                                        <div className={styles.tileBox}>Republic Day...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail850c.html?gal_id=6">
                                                         <span
                                                             style={{
@@ -6872,10 +6885,10 @@ function Main() {
                                                         >
                                                             11th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Cub Cricket 2018...</div>
+                                                        <div className={styles.tileBox}>Cub Cricket 2018...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaild26d.html?gal_id=13">
                                                         <span
                                                             style={{
@@ -6887,10 +6900,10 @@ function Main() {
                                                         >
                                                             7th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Winter Carnival 2019...</div>
+                                                        <div className={styles.tileBox}>Winter Carnival 2019...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2fd2.html?gal_id=14">
                                                         <span
                                                             style={{
@@ -6902,10 +6915,10 @@ function Main() {
                                                         >
                                                             7th of June 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">Career Fest - 2019...</div>
+                                                        <div className={styles.tileBox}>Career Fest - 2019...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detaile0cc.html?gal_id=1">
                                                         <span
                                                             style={{
@@ -6917,12 +6930,12 @@ function Main() {
                                                         >
                                                             7th of March 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Student Exchange Programm...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailee31.html?gal_id=17">
                                                         <span
                                                             style={{
@@ -6934,12 +6947,12 @@ function Main() {
                                                         >
                                                             1st of March 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Shreyans Dugar of IX G, a...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3a46.html?gal_id=18">
                                                         <span
                                                             style={{
@@ -6951,12 +6964,12 @@ function Main() {
                                                         >
                                                             29th of February 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Our budding writer Ayesha...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail873a.html?gal_id=19">
                                                         <span
                                                             style={{
@@ -6968,12 +6981,12 @@ function Main() {
                                                         >
                                                             15th of February 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             The Culmination Day (Grad...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail42b1.html?gal_id=20">
                                                         <span
                                                             style={{
@@ -6985,12 +6998,12 @@ function Main() {
                                                         >
                                                             5th of February 2020{" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Inter House Sub Junior Th...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailcb3b.html?gal_id=24">
                                                         <span
                                                             style={{
@@ -7002,10 +7015,10 @@ function Main() {
                                                         >
                                                             {" "}
                                                         </span>
-                                                        <div className="tile-box">JOURNEY OF DPS JAIPUR...</div>
+                                                        <div className={styles.tileBox}>JOURNEY OF DPS JAIPUR...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail3322.html?gal_id=40">
                                                         <span
                                                             style={{
@@ -7017,12 +7030,12 @@ function Main() {
                                                         >
                                                             {" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Fathers' Day Celebration ...
                                                         </div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detailead1.html?gal_id=57">
                                                         <span
                                                             style={{
@@ -7034,10 +7047,10 @@ function Main() {
                                                         >
                                                             {" "}
                                                         </span>
-                                                        <div className="tile-box">EMINENT VISITORS...</div>
+                                                        <div className={styles.tileBox}>EMINENT VISITORS...</div>
                                                     </a>
                                                 </li>
-                                                <li className="news-events-box-items">
+                                                <li className={styles.newsEventsBoxItems}>
                                                     <a href="image-gallery-detail2039.html?gal_id=69">
                                                         <span
                                                             style={{
@@ -7049,7 +7062,7 @@ function Main() {
                                                         >
                                                             {" "}
                                                         </span>
-                                                        <div className="tile-box">
+                                                        <div className={styles.tileBox}>
                                                             Role Play Competition Gra...
                                                         </div>
                                                     </a>
@@ -7068,59 +7081,59 @@ function Main() {
                                 "\n    .hm-feat-boxes span {\n        z-index: 9;\n    }\n\n    .hm-feat-boxes .test-box {\n        min-height: 168px;\n        width: 100% !important;\n        margin-left: 0%;\n    }\n\n    .hm-feat-boxes .span4 .test-slide {\n        min-height: 168px;\n    }\n"
                         }}
                     />
-                    <div className="main-content" id="hm-features-bg">
-                        <div className="container" style={{ padding: "0px 0px 20px" }}>
-                            <div className="row">
-                                <div className="span12">
-                                    <div className="heading">
+                    <div className={styles.mainContent} id="hm-features-bg">
+                        <div className={styles.container} style={{ padding: "0px 0px 20px" }}>
+                            <div className={styles.row}>
+                                <div className={styles.span12}>
+                                    <div className={styles.heading}>
                                         <h1>Features</h1>
                                     </div>
                                 </div>
-                                <div className="span4">
-                                    <div className="hm-feat-boxes" style={{ width: "100%", margin: 0 }}>
+                                <div className={styles.span4}>
+                                    <div className={styles.hmFeatBoxes} style={{ width: "100%", margin: 0 }}>
                                         <a href="image-gallery.html">
                                             <span>Photo Gallery</span>
                                             <div
-                                                className="test-slide"
+                                                className={styles.testSlide}
                                                 style={{ height: "169px !important" }}
                                             >
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-001.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-002.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-003.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-004.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-005.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-006.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-007.png"
                                                         alt="DPS Jaipur"
@@ -7130,42 +7143,42 @@ function Main() {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="span4">
-                                    <div className="hm-feat-boxes" style={{ width: "100%", margin: 0 }}>
+                                <div className={styles.span4}>
+                                    <div className={styles.hmFeatBoxes} style={{ width: "100%", margin: 0 }}>
                                         <a href="Infrastructure-Facilities.html">
                                             <span>Infrastructure</span>
-                                            <div className="test-slide2">
-                                                <div className="test-box">
+                                            <div className={styles.testSlide2}>
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-01.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-02.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-03.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-04.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-05.png"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/gallery/dps-jaipur-icon-gal-06.png"
                                                         alt="DPS Jaipur"
@@ -7175,24 +7188,24 @@ function Main() {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="span4">
-                                    <div className="hm-feat-boxes" style={{ width: "100%", margin: 0 }}>
+                                <div className={styles.span4}>
+                                    <div className={styles.hmFeatBoxes} style={{ width: "100%", margin: 0 }}>
                                         <a href="events.html">
                                             <span>Events</span>
-                                            <div className="test-slide3">
-                                                <div className="test-box">
+                                            <div className={styles.testSlide3}>
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/dps-jaipur-icon-gal.jpg"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/dps-jaipur-icon-sports.jpg"
                                                         alt="DPS Jaipur"
                                                     />
                                                 </div>
-                                                <div className="test-box">
+                                                <div className={styles.testBox}>
                                                     <img
                                                         src="images/dps-jaipur-icon-curri.jpg"
                                                         alt="DPS Jaipur"
@@ -7205,17 +7218,17 @@ function Main() {
                             </div>
                         </div>
                     </div>
-                    <div className="main-content" id="">
-                        <div className="container" style={{ padding: "0px 0px 20px" }}>
-                            <div className="row">
-                                <div className="span12">
-                                    <div className="heading">
+                    <div className={styles.mainContent} id="">
+                        <div className={styles.container} style={{ padding: "0px 0px 20px" }}>
+                            <div className={styles.row}>
+                                <div className={styles.span12}>
+                                    <div className={styles.heading}>
                                         <h1>Testimonials</h1>
                                     </div>
-                                    <div className="hm-feat-box testi">
-                                        <div className="test-slide">
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                    <div className={(styles.hmFeatBox, styles.testi)}>
+                                        <div className={styles.testSlide}>
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7240,8 +7253,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7265,8 +7278,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7291,8 +7304,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7317,8 +7330,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7342,8 +7355,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7367,8 +7380,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7393,8 +7406,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7419,8 +7432,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7446,8 +7459,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7472,8 +7485,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7497,8 +7510,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7524,8 +7537,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7553,8 +7566,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7581,8 +7594,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7607,8 +7620,8 @@ function Main() {
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div className="test-box">
-                                                <div className="test-box-content">
+                                            <div className={styles.testBox}>
+                                                <div className={styles.testBoxContent}>
                                                     <img
                                                         style={{
                                                             border: "2px solid #0080004a",
@@ -7633,11 +7646,11 @@ function Main() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="next">
-                                            <i className="fa fa-angle-left" />
+                                        <div className={styles.next}>
+                                            <i className={(styles.fa, styles.faAngleLeft)} />
                                         </div>
-                                        <div className="prev">
-                                            <i className="fa fa-angle-right" />
+                                        <div className={styles.prev}>
+                                            <i className={(styles.fa, styles.faAngleRight)} />
                                         </div>
                                     </div>
                                 </div>
@@ -7649,12 +7662,12 @@ function Main() {
                             __html: "\n    .socialdata {\n        margin-bottom: 10px;\n    }\n"
                         }}
                     />
-                    <div className="main-content" id="social">
-                        <div className="container">
-                            <div className="row">
-                                <div className="span4 socialdata">
+                    <div className={styles.mainContent} id="social">
+                        <div className={styles.container}>
+                            <div className={styles.row}>
+                                <div className={(styles.span4, styles.socialdata)}>
                                     <div
-                                        className="fb-page"
+                                        className={styles.fbPage}
                                         data-href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf"
                                         data-tabs="timeline"
                                         data-width={400}
@@ -7666,7 +7679,7 @@ function Main() {
                                     >
                                         <blockquote
                                             cite="https://www.facebook.com/dps.jaipur.1/?ref=br_tf"
-                                            className="fb-xfbml-parse-ignore"
+                                            className={styles.fbXfbmlParseIgnore}
                                         >
                                             <a href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf">
                                                 DPS Jaipur
@@ -7680,7 +7693,7 @@ function Main() {
                                         <span id="fb">FACEBOOK</span>
                                     </a>
                                 </div>
-                                <div className="span4 socialdata">
+                                <div className={(styles.span4, styles.socialdata)}>
                                     <video
                                         style={{ background: "#000" }}
                                         width="100%"
@@ -7695,7 +7708,7 @@ function Main() {
                                         />
                                     </video>
                                 </div>
-                                <div className="span4 socialdata">
+                                <div className={(styles.span4, styles.socialdata)}>
                                     <iframe
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen=""
@@ -7705,7 +7718,7 @@ function Main() {
                                         width="100%"
                                     />
                                 </div>
-                                {/* <div class="span4 socialdata">
+                                {/* <div className={(styles.span4, styles.socialdata)}>
           <video style="background: #000;" width="100%" height="275" controls="" autoplay loop>
               <source src="https://dpsjaipur.com/video/campus.mp4" type="video/mp4">
           </video>
@@ -7714,7 +7727,7 @@ function Main() {
               <a href="https://dpsjaipur.com/video/campus.mp4" style="color:#fff;" target="_blank"><span id="fb">Video's URLhttps://dpsjaipur.com/video/campus.mp4</span></a>
           </p>
       </div> 
-    <div class="span4 socialdata">
+    <div className={(styles.span4, styles.socialdata)}>
 						<video style="border: 1px solid #fffd99" width="100%" height="270" controls="" autoplay  loop><source src="https://dpsjaipur.com/video/campusVisit.mp4" type="video/mp4"></video>
 						<h4 style="color:#fff; text-align:center">Video's URL</h4>
 						<p style="color:#fff; text-align:center">
@@ -7729,14 +7742,14 @@ function Main() {
                                 "\n    .enquiry-text {\n        background: #fbfbfb;\n        width: 100%;\n        height: 312px;\n        padding: 70px 60px;\n        font-size: 20px;\n        line-height: 30px;\n        position: relative;\n        text-align: center;\n    }\n\n    .enquiry-text:before {\n        content: '';\n        display: block;\n        position: absolute;\n        top: 8px;\n        left: 8px;\n        right: 8px;\n        bottom: 8px;\n        border: 2px dashed #f1a308;\n    }\n\n    .enquiry-text span {\n        background: #f1a308;\n        padding: 0px 20px;\n        position: absolute;\n        top: 240px;\n        left: 140px;\n        color: #fff;\n    }\n"
                         }}
                     />
-                    <div className="main-content">
-                        <div className="hm-quick hm-quicks">
-                            <div className="hm-quicklinks" style={{ padding: "30px 20px 2px" }}>
-                                <div className="heading">
+                    <div className={styles.mainContent}>
+                        <div className={(styles.hmQuick, styles.hmQuicks)}>
+                            <div className={styles.hmQuicklinks} style={{ padding: "30px 20px 2px" }}>
+                                <div className={styles.heading}>
                                     <h1 style={{ marginTop: "-8px" }}>Quick Links</h1>
                                 </div>
-                                <div className="quickbox">
-                                    <div className="quickboxes">
+                                <div className={styles.quickbox}>
+                                    <div className={styles.quickboxes}>
                                         <a href="Newsletter.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks1-new.png"
@@ -7746,7 +7759,7 @@ function Main() {
                                             <span>Career Counselling</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="Robotics.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks2.png"
@@ -7756,7 +7769,7 @@ function Main() {
                                             <span>Robotics</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="Sports.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks3.png"
@@ -7766,7 +7779,7 @@ function Main() {
                                             <span>Sports</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="internation-exchange-programs.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks4-new.jpg"
@@ -7776,7 +7789,7 @@ function Main() {
                                             <span>International Exchange Programs</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="Schoolinformation-CBSE.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks5-new.jpg"
@@ -7785,7 +7798,7 @@ function Main() {
                                             <span>School Information for CBSE</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="External-Examination.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks6.png"
@@ -7795,7 +7808,7 @@ function Main() {
                                             <span> External Examination</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="International-Award.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-quicklinks7-new.jpg"
@@ -7805,7 +7818,7 @@ function Main() {
                                             <span>IDS</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="School-Publications.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-School_Publications.jpg"
@@ -7815,7 +7828,7 @@ function Main() {
                                             <span>Newsletter</span>
                                         </a>
                                     </div>
-                                    <div className="quickboxes">
+                                    <div className={styles.quickboxes}>
                                         <a href="media-gallery.html">
                                             <img
                                                 src="images/quicklinks/dps-jaipur-News_Paper_Post.jpg"
@@ -7827,46 +7840,46 @@ function Main() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="ib-scl">
-                                <div className="heading">
+                            <div className={styles.ibScl}>
+                                <div className={styles.heading}>
                                     <h1> Accreditation &amp; Associations </h1>
                                 </div>
-                                <div className="collaboration-logos">
-                                    <div className="ib-world">
+                                <div className={styles.collaborationLogos}>
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-2.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-3.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-4.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-9.png" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-10.png" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-6.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-5.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img src="images/quicklinks/dps-jaipur-1.jpg" alt="DPS Jaipur" />
                                     </div>
-                                    <div className="ib-world">
+                                    <div className={styles.ibWorld}>
                                         <img
                                             src="images/quicklinks/dps-jaipur-microsoft-showcase-school.jpg"
                                             alt="DPS Jaipur"
                                         />
                                     </div>
-                                    {/*<div class="ib-world-long">
-                      <div class="ib-world isa">
+                                    {/*<div className={styles.ibWorldLong}>
+                      <div className={(styles.ibWorld, styles.isa)}>
                           <a href="" ><img src="images/quicklinks/7.png"></a>
                       </div>
-							<div class="ib-world isa">
+							<div className={(styles.ibWorld, styles.isa)}>
                           <a href="" ><img src="images/quicklinks/8.png"></a>
                       </div>
 						</div>*/}
@@ -7876,15 +7889,15 @@ function Main() {
                     </div>
                     {/*Start of Tawk.to Script*/}
                     {/*End of Tawk.to Script*/}
-                    <footer className="footer">
-                        <div className="foot-social">
+                    <footer className={styles.footer}>
+                        <div className={styles.footSocial}>
                             <ul>
                                 <li>
                                     <a
                                         href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf"
                                         target="_blank"
                                     >
-                                        <i className="fa fa-facebook" />
+                                        <i className={(styles.fa, styles.faFacebook)} />
                                     </a>
                                 </li>
                                 <li>
@@ -7892,7 +7905,7 @@ function Main() {
                                         href="https://www.instagram.com/dps_jaipur_official/"
                                         target="_blank"
                                     >
-                                        <i className="fa fa-instagram" />
+                                        <i className={(styles.fa, styles.faInstagram)} />
                                     </a>
                                 </li>
                                 <li>
@@ -7900,22 +7913,22 @@ function Main() {
                                         href="https://www.youtube.com/channel/UCZET6hMeeritb2oo2z5QdJQ"
                                         target="_blank"
                                     >
-                                        <i className="fa fa-youtube" />
+                                        <i className={(styles.fa, styles.faYoutube)} />
                                     </a>
                                 </li>
-                                {/*<li><a href="https://api.whatsapp.com/send?phone=919828982987" target="_blank"><i class="fa fa-whatsapp"></i></a></li>*/}
+                                {/*<li><a href="https://api.whatsapp.com/send?phone=919828982987" target="_blank"><i className={(styles.fa, styles.faWhatsapp)}></i></a></li>*/}
                                 <li>
                                     <a href="https://twitter.com/DPSJaipur" target="_blank">
-                                        <i className="fa fa-twitter" />
+                                        <i className={(styles.fa, styles.faTwitter)} />
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <div className="first-footer">
-                            <div className="footer-logo foot-box">
+                        <div className={styles.firstFooter}>
+                            <div className={(styles.footerLogo, styles.footBox)}>
                                 <img src="images/dps-jaipur-school-logo.png" alt="DPS Jaipur" />
                             </div>
-                            <div className="quick-links foot-box">
+                            <div className={(styles.quickLinks, styles.footBox)}>
                                 <h3>Quick Links</h3>
                                 <ul>
                                     {/*  <li><a href="Facilities">Facilities</a></li> */}
@@ -7956,10 +7969,10 @@ function Main() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="box foot-box">
+                            <div className={(styles.box, styles.footBox)}>
                                 <h3>Contact us</h3>
-                                <div className="conatct-box">
-                                    <div className="contact">
+                                <div className={styles.conatctBox}>
+                                    <div className={styles.contact}>
                                         <p>
                                             Delhi Public School, Jaipur, Ajmer Road Branch NH-8, Jaipur
                                             Ajmer Highway, Jaipur Pin code – 302026
@@ -7990,12 +8003,12 @@ function Main() {
                                 </div>
                             </div>
                         </div>
-                        <div className="button-top">
-                            <i className="fa fa-arrow-up" />
+                        <div className={styles.buttonTop}>
+                            <i className={(styles.fa, styles.faArrowUp)} />
                         </div>
-                        <footer className="bottom">
+                        <footer className={styles.bottom}>
                             <p>© 2023 All rights reserved with DPS Jaipur</p>
-                            <div className="ecis">
+                            <div className={styles.ecis}>
                                 <p>
                                     Powered by :{" "}
                                     <a
@@ -8010,7 +8023,7 @@ function Main() {
                     </footer>
                 </div>
                 {/* to the top start //
-<div id="to-the-top"><i class="icon-angle-up"></i></div>
+<div id="to-the-top"><i className={styles.iconAngleUp}></i></div>
 <!-- to the top end //*/}
                 {/* scripts start //*/}
                 <div id="fb-root" />
@@ -8022,7 +8035,6 @@ function Main() {
                 {/* Scroll Nav */}
                 {/* Mirrored from dpsjaipur.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 10:15:41 GMT */}
             </>
-
 
         </>
     )

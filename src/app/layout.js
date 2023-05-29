@@ -1,6 +1,5 @@
 import Footer from './components/Footer'
 import Header from './components/Header'
-import MainWrapper from './components/MainWrapper'
 import NavBar from './components/NavBar'
 import Slidder2 from './components/Slidder2'
 import './globals.css'
@@ -20,7 +19,6 @@ export default function RootLayout({ children }) {
         <Header />
         <NavBar />
         <Slidder2 />
-        <MainWrapper />
         {children}
         <Footer />
         </body>

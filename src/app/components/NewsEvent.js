@@ -6,7 +6,8 @@ function NewsEvent() {
         <>
             <div className={styles['main-content']}>
                 <div className={styles.container} 
-                style={{ padding: "0px 0px 20px" }}>
+                style={{ padding: "0px 0px 20px" }}
+                >
                     <div className={styles.row}>
 
                         {/* HEADING PART */}

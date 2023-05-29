@@ -55,13 +55,55 @@ a {
   }
 }
 
-
-#mngbac a,
-* {
-  padding: 0
+a,
+li,
+p,
+span {
+    font-size: 14px
 }
 
 
+.heading h1,
+body {
+    font-family: lato, sans-serif
+}
+
+#mngbac a,
+* {
+    padding: 0
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box
+}
+
+li,
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.list2 a,
+.sub-venue,
+.sub-venue h4,
+.venue,
+pre {
+    text-align: center
+}
+
+pre {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  margin: 10px 0;
+  padding: 30px 0;
+  background-image: url(/public/dpslogo.png);
+  background-size: 100% 100%
+}
 
 
 h1,

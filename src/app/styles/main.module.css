@@ -17,8 +17,6 @@
     display: block
 }
 
-
-
 .hm-feat-boxes span,
 .top-socials ul li a {
     -webkit-transition: .3s;
@@ -34,6 +32,7 @@
 }
 
 
+
 .dropdown,
 .dropdown2 {
     padding: 10px;
@@ -46,6 +45,14 @@
     content: '\f0eb'
 }
 
+.extra-school ul li:before,
+.extra:before,
+.link-p:before,
+.list1 li:before,
+
+
+.heading h1,
+.images-mc cite,
 
 
 #preview li,
@@ -74,10 +81,6 @@
 .scrollDown {
     cursor: pointer
 }
-
-
-
-
 
 
 
@@ -500,6 +503,8 @@
     color: #fff
 }
 
+
+
 .hm-features {
     width: 100%;
     float: left;
@@ -550,7 +555,11 @@
     display: inline-block
 }
 
-
+.test-box-content:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .test-box-content p {
     font-size: 13px;
@@ -748,7 +757,6 @@
 }
 
 
-
 .hm-feat-box,
 .hm-infra-box {
     width: 100%;
@@ -833,18 +841,11 @@
     color: #004c86
 }
 
-.logohead {
-    background: #065e3e;
-    border-top: 1px solid #065e3e;
-    border-bottom: 1px solid #065e3e;
-}
-
-.main-content {
+#social {
     width: 100%;
-    float: left;
-    border: 0 solid red;
+    display: block;
+    padding: 50px 0 35px
 }
-
 
 #demo,
 #small-m,
@@ -1199,8 +1200,6 @@
 .list1 li {
     position: relative
 }
-
-
 
 .inside-text h2 {
     color: #fff;
@@ -2109,7 +2108,6 @@
 }
 
 
-
 .list5 {
     margin-left: 20px
 }
@@ -2662,6 +2660,7 @@
         width: 45%
     }
 
+
 }
 
 @media screen and (max-width:832px) {
@@ -2768,7 +2767,6 @@
         float: left !important
     }
 }
-
 
 @media screen and (max-width:740px) {
     .features-box {

@@ -15,6 +15,11 @@
     }
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .heading {
     width: 100%;
     float: left;
@@ -65,10 +70,7 @@
     border: 5px solid #fff;
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .row {
     margin-left: -20px;

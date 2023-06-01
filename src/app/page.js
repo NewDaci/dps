@@ -10,6 +10,7 @@ import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import Socials from './components/Socials';
 import Associations from './components/Associations';
+import TestiSlidder from './components/TestiSlidder';
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
     <MainWrapper />
     <NewsEvent />
     <Features />
-    <Testimonials />
+    {/* <Testimonials /> */}
+    <TestiSlidder />
     <Socials />
     <Associations />
     {/* <Main /> */}

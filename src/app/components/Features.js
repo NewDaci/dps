@@ -1,19 +1,38 @@
-import styles from "../styles/features.module.css";
+import styles from "../styles/try.module.css";
+import Image from "next/image";
 
 
 function Features() {
     return (
         <>
-            <div className={styles['main-content']} id="hm-features-bg">
-                <div className={styles.container} style={{ padding: "0px 0px 20px" }}>
-                    <div className={styles.row}>
+            <div className={styles['main-content']}>
+                <div className={styles.container} style={{
+                    padding: "0px 0px 20px"
+                }}>
+                    <div className={`${styles.row} ${styles['background-image']}`}
+                        style={{
+                            paddingRight: "50px",
+                            paddingTop: "37px",
+                            paddingBottom: "23px",
+                        }}>
+
+                        {/* FOR HEADING ONLY */}
                         <div className={styles.span12}>
-                            <div className={styles.heading}>
+                            <div className={styles.heading}
+                                style={{
+                                    paddingLeft: "204px",
+                                    paddingTop: "67px",
+                                }}>
                                 <h1>Features</h1>
                             </div>
                         </div>
+
                         <div className={styles.span4}>
-                            <div className={styles["hm-features-boxes"]} style={{ width: "100%", margin: 0 }}>
+                            <div className={styles["hm-feat-boxes"]} style={{
+                                width: "100%",
+                                margin: 0,
+                                paddingTop: "15px"
+                            }}>
                                 <a href="image-gallery.html">
                                     <span>Photo Gallery</span>
                                     <div className={styles["test-slide"]} style={{ height: "169px !important" }}>
@@ -30,8 +49,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-001.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-001.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -48,8 +69,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-002.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-002.png"
+                                                width={2000}
+                                                height={110}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -66,8 +89,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-003.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-003.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -84,8 +109,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-004.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-004.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -102,8 +129,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-005.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-005.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -120,8 +149,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-006.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-006.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -138,8 +169,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-007.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-007.png"
+                                                width={100}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -148,7 +181,11 @@ function Features() {
                             </div>
                         </div>
                         <div className={styles.span4}>
-                            <div className={styles["hm-feat-boxes"]} style={{ width: "100%", margin: 0 }}>
+                            <div className={styles["hm-feat-boxes"]} style={{
+                                width: "100%",
+                                margin: 0,
+                                // marginBottom: "5px",
+                            }}>
                                 <a href="Infrastructure-Facilities.html">
                                     <span>Infrastructure</span>
                                     <div
@@ -173,8 +210,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-01.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-01.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -191,8 +230,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-02.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-02.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -209,8 +250,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-03.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-03.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -227,8 +270,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-04.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-04.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -245,8 +290,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-05.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-05.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -263,8 +310,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img
-                                                src="images/gallery/dps-jaipur-icon-gal-06.png"
+                                            <Image
+                                                src="/gallery/dps-jaipur-icon-gal-06.png"
+                                                width={500}
+                                                height={100}
                                                 alt="DPS Jaipur"
                                             />
                                         </div>
@@ -273,7 +322,10 @@ function Features() {
                             </div>
                         </div>
                         <div className={styles.span4}>
-                            <div className={styles["hm-feat-boxes"]} style={{ width: "100%", margin: 0 }}>
+                            <div className={styles["hm-feat-boxes"]} style={{
+                                width: "100%",
+                                margin: 0,
+                            }}>
                                 <a href="events.html">
                                     <span>Events</span>
                                     <div
@@ -298,7 +350,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img src="images/dps-jaipur-icon-gal.jpg" alt="DPS Jaipur" />
+                                            <Image src="/gallery/dps-jaipur-icon-gal.jpg"
+                                                width={500}
+                                                height={100}
+                                                alt="DPS Jaipur" />
                                         </div>
                                         <div
                                             className={styles["test-box"]}
@@ -313,7 +368,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img src="images/dps-jaipur-icon-sports.jpg" alt="DPS Jaipur" />
+                                            <Image src="/gallery/dps-jaipur-icon-sports.jpg"
+                                                width={500}
+                                                height={100}
+                                                alt="DPS Jaipur" />
                                         </div>
                                         <div
                                             className={styles["test-box"]}
@@ -328,7 +386,10 @@ function Features() {
                                                 height: 179
                                             }}
                                         >
-                                            <img src="images/dps-jaipur-icon-curri.jpg" alt="DPS Jaipur" />
+                                            <Image src="/gallery/dps-jaipur-icon-curri.jpg"
+                                                width={5000}
+                                                height={120}
+                                                alt="DPS Jaipur" />
                                         </div>
                                     </div>
                                 </a>
@@ -336,7 +397,7 @@ function Features() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </>
     )

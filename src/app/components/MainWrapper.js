@@ -39,7 +39,7 @@ function Wrapper() {
                                         fontWeight: "bold"
                                     }}
                                 >
-                                    New Notifications
+                                    {/* New Notifications */}
                                 </h2>
                             </div>
 

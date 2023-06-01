@@ -1,109 +1,55 @@
+"use client"
+import React, { useEffect, useRef } from 'react';
 import styles from "../styles/test.module.css";
+import Image from 'next/image';
 
+const TestiSlidder = () => {
+    const nextButtonRef = useRef(null);
+    const prevButtonRef = useRef(null);
+    const testSlideRef = useRef(null);
 
-function Testimonials() {
+    useEffect(() => {
+        const nextButton = nextButtonRef.current;
+        const prevButton = prevButtonRef.current;
+        const testSlide = testSlideRef.current;
+
+        const handleNextClick = () => {
+            testSlide.scrollBy({ left: 200, behavior: 'smooth' });
+        };
+
+        const handlePrevClick = () => {
+            testSlide.scrollBy({ left: -200, behavior: 'smooth' });
+        };
+
+        nextButton.addEventListener('click', handleNextClick);
+        prevButton.addEventListener('click', handlePrevClick);
+
+        return () => {
+            nextButton.removeEventListener('click', handleNextClick);
+            prevButton.removeEventListener('click', handlePrevClick);
+        };
+    }, []);
+
     return (
-        <>
-            <div className={styles['main-content']}>
-                <div className={styles.container} style={{ padding: "0px 0px 20px" }}>
-                    <div className={styles.row}>
-                        <div className={styles.span12}>
-                            <div className={styles.heading}>
-                                <h1>Testimonials</h1>
-                            </div>
-                            {/* <div className={`${styles['hm-feat-box']} ${styles.testi}`}>
-                                <div className={styles["test-slide"]} style={{ width: 1053, height: 180 }}>
-                                    <div
-                                        className={styles["test-box"]}
-                                        style={{
-                                            position: "absolute",
-                                            top: 0,
-                                            left: 0,
-                                            display: "none",
-                                            zIndex: 16,
-                                            opacity: 0,
-                                            width: 948,
-                                            height: 158
-                                        }}
-                                    >
-                                        <div className={styles["test-box-content"]}>
-                                            <img
-                                                style={{
-                                                    border: "2px solid #0080004a",
-                                                    boxShadow: "0px 0px 10px 0px #4f42928f",
-                                                    float: "left",
-                                                    width: "16%",
-                                                    borderRadius: "50%",
-                                                    marginRight: 12
-                                                }}
-                                                src="upload/testimonial/709841620809501.jpg"
-                                                alt="DPS JAIPUR"
-                                            />
-                                            <p>
-                                                Currently a 4th year undergraduate at IIT Kharagpur.
-                                                <br />
-                                                My education at DPS Jaipur transformed me holistically with
-                                                constant inspirations and encouragement from my teachers. I
-                                                was very young when I developed an interest in science and
-                                                robots, bu... <a href="Alumni-Speak.html">Read More</a>
-                                                <span>Mohit Singh </span>
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div
-                                        className={styles["test-box"]}
-                                        style={{
-                                            position: "absolute",
-                                            top: 0,
-                                            left: 0,
-                                            display: "none",
-                                            zIndex: 16,
-                                            opacity: 0,
-                                            width: 948,
-                                            height: 158
-                                        }}
-                                    >
-                                        <div className={styles["test-box-content"]}>
-                                            <img
-                                                style={{
-                                                    border: "2px solid #0080004a",
-                                                    boxShadow: "0px 0px 10px 0px #4f42928f",
-                                                    float: "left",
-                                                    width: "16%",
-                                                    borderRadius: "50%",
-                                                    marginRight: 12
-                                                }}
-                                                src="upload/testimonial/510511620809421.jpg"
-                                                alt="DPS JAIPUR"
-                                            />
-                                            <p>
-                                                (Studied Manufacturing Engineering from BITS Pilani and
-                                                pursuing Masters in Financial Engineering from UC Berkeley
-                                                University, California.)
-                                                <br />
-                                                It gives me immense pride to say that I was part of the first
-                                                batch of students enrolled in DPS Jaipur...{" "}
-                                                <a href="Alumni-Speak.html">Read More</a>
-                                                <span>Nitish Garg</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <div className="next">
-                                        <i className="fa fa-angle-left" />
-                                    </div>
-                                    <div className="prev">
-                                        <i className="fa fa-angle-right" />
-                                    </div>
-                                </div> */}
-
-                            {/* FROM MAIN.JS */}
-                            <div className={(styles.hmFeatBox, styles.testi)}>
-                                <div className={styles.testSlide}>
+        <div className={styles['main-content']}>
+            <div className={styles.container}>
+                <div className={`${styles.row} ${styles['background-image']}`}>
+                    <div className={styles.span12}>
+                        <div className={styles.heading}>
+                            <h1 style={{
+                                color: "#065e3e",
+                                fontWeight: "400",
+                                fontSize: "30px",
+                            }}
+                            >
+                                Testimonials</h1>
+                        </div>
+                        <div className={styles.TestiSlidder}>
+                            <div className={`${styles.hmFeatBox} ${styles.testi}`}>
+                                <div className={styles.testSlide} ref={testSlideRef}>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -112,7 +58,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/709841620809501.jpg"
+                                                src="/upload/testimonial/709841620809501.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -129,7 +77,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -138,7 +86,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/511771620809476.jpg"
+                                                src="/upload/testimonial/511771620809476.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -154,7 +104,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -163,7 +113,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/346121620809453.jpg"
+                                                src="/upload/testimonial/346121620809453.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -180,7 +132,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -189,7 +141,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/510511620809421.jpg"
+                                                src="/upload/testimonial/510511620809421.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -206,7 +160,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -215,7 +169,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/14031620809393.jpg"
+                                                src="/upload/testimonial/14031620809393.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -231,7 +187,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -240,7 +196,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/479201620809369.jpg"
+                                                src="/upload/testimonial/479201620809369.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -256,7 +214,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -265,7 +223,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/243591620809345.jpg"
+                                                src="/upload/testimonial/243591620809345.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -282,7 +242,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -291,7 +251,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/736231620809320.jpg"
+                                                src="/upload/testimonial/736231620809320.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -308,7 +270,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -317,7 +279,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/833421620809298.jpg"
+                                                src="/upload/testimonial/833421620809298.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -335,7 +299,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -344,7 +308,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/643481620809275.jpg"
+                                                src="/upload/testimonial/643481620809275.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -361,7 +327,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -370,7 +336,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/168131620809247.jpg"
+                                                src="/upload/testimonial/168131620809247.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -386,7 +354,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -395,7 +363,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/733921620809224.jpg"
+                                                src="/upload/testimonial/733921620809224.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -413,7 +383,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -422,7 +392,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/940061620809200.jpg"
+                                                src="/upload/testimonial/940061620809200.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -442,7 +414,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -451,7 +423,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/240871620809175.jpg"
+                                                src="/upload/testimonial/240871620809175.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -470,7 +444,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -479,7 +453,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/970071620809148.jpg"
+                                                src="/upload/testimonial/970071620809148.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -496,7 +472,7 @@ function Testimonials() {
                                     </div>
                                     <div className={styles.testBox}>
                                         <div className={styles.testBoxContent}>
-                                            <img
+                                            <Image
                                                 style={{
                                                     border: "2px solid #0080004a",
                                                     boxShadow: "0px 0px 10px 0px #4f42928f",
@@ -505,7 +481,9 @@ function Testimonials() {
                                                     borderRadius: "50%",
                                                     marginRight: 12
                                                 }}
-                                                src="upload/testimonial/468551620809123.jpg"
+                                                src="/upload/testimonial/468551620809123.jpg"
+                                                width={600}
+                                                height={110}
                                                 alt="DPS JAIPUR"
                                             />
                                             <p>
@@ -520,23 +498,18 @@ function Testimonials() {
                                         </div>
                                     </div>
                                 </div>
-
-                                {/* ARROWS */}
-                                
-                                <div className={styles.next}>
-                                    <i className={`${styles.fa} ${styles.faAngleLeft}`} />
-                                </div>
-                                <div className={styles.prev}>
-                                    <i className={`${styles.fa} ${styles.faAngleRight}`} />
-                                </div>
                             </div>
+
+                            {/* BUTTONS */}
+                            <button className="next" ref={nextButtonRef}>Next</button>
+                            <button className="prev" ref={prevButtonRef}>Previous</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    );
 
-        </>
+};
 
-    )
-}
-export default Testimonials;
+export default TestiSlidder;

@@ -1,4 +1,4 @@
-import styles from "../styles/features.module.css";
+import styles from "../styles/socials.module.css";
 
 
 function Socials() {
@@ -6,7 +6,8 @@ function Socials() {
         <>
             <div className={`${styles["main-content"]} ${styles.social}`}>
                 <div className={styles.container}>
-                    <div className={styles.row}>
+                    <div className={`${styles.row} ${styles['background-image']}`}
+                     style={{ width: '1520px' }}>
                         <div className={`${styles.span4} ${styles.socialdata}`}>
                             <div
                                 className={styles["fb-page"]}
@@ -28,10 +29,7 @@ function Socials() {
                                     </a>
                                 </blockquote>
                             </div>
-                            <a
-                                href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf"
-                                target="_blank"
-                            >
+                            <a href="https://www.facebook.com/dps.jaipur.1/?ref=br_tf" target="_blank">
                                 <span id="fb">FACEBOOK</span>
                             </a>
                         </div>
@@ -44,10 +42,7 @@ function Socials() {
                                 autoPlay=""
                                 loop=""
                             >
-                                <source
-                                    src="https://www.dpsjaipur.com/video/campus.mp4"
-                                    type="video/mp4"
-                                />
+                                <source src="https://www.dpsjaipur.com/video/campus.mp4" type="video/mp4" />
                             </video>
                         </div>
                         <div className={`${styles.span4} ${styles.socialdata}`}>
@@ -73,7 +68,7 @@ function Socials() {
 						<h4 style="color:#fff; text-align:center">Video's URL</h4>
 						<p style="color:#fff; text-align:center">
 						<a href="https://dpsjaipur.com/video/campusVisit.mp4" style="color:#fff;" target="_blank">https://dpsjaipur.com/video/campusVisit.mp4</a></p>
-				</div> */}
+</div> */}
                     </div>
                 </div>
             </div>

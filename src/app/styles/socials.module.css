@@ -1,0 +1,139 @@
+
+
+.main-content {
+    width: 100%;
+    float: left;
+    border: 0 solid red;
+}
+
+.main-content blockquote {
+    border-left-color: #52850f;
+}
+.main-content h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    width: auto;
+    float: left;
+}
+
+.main-content ul li {
+    line-height: 31px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow the child elements to wrap to a new line if necessary */
+    justify-content: center;
+    /* Center the child elements horizontally */
+}
+
+.background-image {
+    /* styles for the element with background image */
+    background-image: url(/1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+.row {
+    /* styles for the row */
+    display: flex;
+}
+
+.span4 {
+    /* styles for the span4 div */
+    flex-basis: 33.33%;
+    padding: 10px;
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .navbar-fixed-bottom .container,
+    .navbar-fixed-top .container,
+    .navbar-static-top .container,
+    .span12 {
+        width: 1520px;
+    }
+}
+
+.span12 {
+    width: 940px;
+}
+
+@media screen and (max-width:768px) and (min-width:320px) {
+
+    #hm-features-bg .span12,
+    .container,
+    .features-box,
+    .hm-feat-boxes,
+    .reveal-modal,
+    .test-slide {
+        width: 100% !important
+    }
+
+    .reveal-modal .close-reveal-modal {
+        position: relative !important
+    }
+
+    .purchase {
+        width: auto !important
+    }
+}
+
+.heading {
+    width: 100%;
+    float: left;
+}
+
+.heading,
+.heading h1,
+.upevents span {
+    text-align: center;
+}
+
+
+.heading h1 {
+    color: #065e3e;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.heading h1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 22%;
+    height: 5px;
+    left: 49%;
+    margin-left: -10%;
+    border-top: 1px solid #065e3e;
+    border-bottom: 1px solid #065e3e;
+}
+
+.heading h1:after {
+    content: '';
+    position: absolute;
+    bottom: -32%;
+    left: 50%;
+    margin: 0 0 15px -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #065e3e;
+    border: 5px solid #fff;
+}
+
+.foot-social,
+.heading h1,
+.hm-feat-boxes,
+.quickboxes,
+.test-box-content,
+.upevents a {
+    position: relative;
+}

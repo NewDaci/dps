@@ -51,7 +51,7 @@
     border-top: 1px solid #065e3e;
     border-bottom: 1px solid #065e3e;
 }
-
+/* 
 .heading h1:after {
     content: '';
     position: absolute;
@@ -63,7 +63,7 @@
     border-radius: 50%;
     background: #065e3e;
     border: 5px solid #fff;
-}
+} */
 
 .container {
     margin-right: auto;
